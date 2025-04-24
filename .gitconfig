@@ -1,0 +1,12 @@
+[user]
+	name = Rockmed1
+	email = 186123210+Rockmed1@users.noreply.github.com
+[init]
+	defaultBranch = main
+[http]
+	postBuffer = 524288000
+	lowSpeedLimit = 0
+	lowSpeedTime = 999999
+[core]
+	compression = 9
+	excludesfile = /Users/themac/.gitignore_global

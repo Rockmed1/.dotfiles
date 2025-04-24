@@ -1,0 +1,206 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "speed" : 0.14,
+        "acceleration" : 2.4
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "E0F48C9E",
+          "category" : "mouse",
+          "productID" : "0xb034",
+          "vendorID" : "0x46d",
+          "productName" : "MX Master 3S"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : false,
+        "mappings" : [
+          {
+            "shift" : false,
+            "button" : 5,
+            "command" : false,
+            "option" : false,
+            "control" : false,
+            "action" : "missionControl"
+          }
+        ]
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0,
+          "horizontal" : 13.9
+        },
+        "reverse" : {
+          "horizontal" : true
+        },
+        "acceleration" : {
+          "horizontal" : 0,
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 2
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.9844,
+        "acceleration" : 0
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x3020",
+          "productName" : "Wireless Device",
+          "category" : "mouse",
+          "vendorID" : "0x3151",
+          "serialNumber" : "b120300001"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x281",
+          "serialNumber" : "Voodoo Magic Trackpad 2 Simulator",
+          "category" : "trackpad",
+          "vendorID" : "0x5ac",
+          "productName" : "Magic Trackpad 2"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1.5,
+        "speed" : 0.101,
+        "disableAcceleration" : false
+      }
+    },
+    {
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : 2
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "serialNumber" : "F1D8AFE8808DB0AF",
+          "category" : "mouse",
+          "productID" : "0xb025",
+          "productName" : "MX Anywhere 3"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 2.1,
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "scrolling" : {
+        "distance" : {
+          "vertical" : "auto",
+          "horizontal" : 2
+        },
+        "reverse" : {
+          "horizontal" : true
+        },
+        "acceleration" : {
+          "vertical" : 0.5,
+          "horizontal" : 1
+        },
+        "speed" : {
+          "horizontal" : 0,
+          "vertical" : 2.02
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : false,
+        "mappings" : [
+          {
+            "option" : false,
+            "control" : false,
+            "repeat" : false,
+            "command" : false,
+            "shift" : false,
+            "button" : 5,
+            "action" : "missionControl"
+          }
+        ]
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.7
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "83E034AE",
+          "vendorID" : "0x46d",
+          "productName" : "MX Master 3S",
+          "productID" : "0xb034",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : false,
+        "speed" : 0.8,
+        "acceleration" : 0
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "control" : false,
+            "action" : "missionControl",
+            "button" : 5,
+            "option" : false,
+            "command" : false,
+            "shift" : false
+          }
+        ]
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xb034",
+          "productName" : "MX Master 3S",
+          "category" : "mouse",
+          "serialNumber" : "70BC2B7D"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "reverse" : {
+          "horizontal" : true
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "36px"
+        }
+      }
+    }
+  ]
+}
