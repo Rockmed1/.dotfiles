@@ -99,7 +99,7 @@ else
 fi
 
 # Check if the backup directory has the expected structure
-if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/dotfiles" ] || [ ! -d "$BACKUP_DIR/preferences" ]; then
+if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/app_store" ]|| [ ! -d "$BACKUP_DIR/misc" ] || [ ! -d "$BACKUP_DIR/preferences" ]; then
     print_error "Backup directory does not have the expected structure."
     print_info "Expected directories: homebrew, dotfiles, preferences"
     exit 1
