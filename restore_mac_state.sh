@@ -13,6 +13,18 @@
 # Exit on error
 set -e
 
+# Detect architecture and set paths accordingly
+ARCH=$(uname -m)
+if [[ "$ARCH" == "arm64" ]]; then
+    IS_APPLE_SILICON=true
+    HOMEBREW_PREFIX="/opt/homebrew"
+    print_info "Detected Apple Silicon Mac (M-series chip)"
+else
+    IS_APPLE_SILICON=false
+    HOMEBREW_PREFIX="/usr/local"
+    print_info "Detected Intel Mac"
+fi
+
 # Set text formatting
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
@@ -135,12 +147,16 @@ else
     progress_indicator $brew_pid
     
     # Add Homebrew to PATH for the current session
-    if [ -f /opt/homebrew/bin/brew ]; then
+    # Add Homebrew to PATH for the current session
+    if [ -f "$HOMEBREW_PREFIX/bin/brew" ]; then
+        eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
+    elif [ -f /opt/homebrew/bin/brew ]; then
+        HOMEBREW_PREFIX="/opt/homebrew"
         eval "$(/opt/homebrew/bin/brew shellenv)"
     elif [ -f /usr/local/bin/brew ]; then
+        HOMEBREW_PREFIX="/usr/local"
         eval "$(/usr/local/bin/brew shellenv)"
     fi
-    
     if ! command_exists brew; then
         print_error "Homebrew installation failed."
         exit 1
@@ -150,8 +166,8 @@ else
     # Configure Homebrew in user's shell profile
     print_info "Adding Homebrew to $USER's shell profile"
     echo "" >> /Users/$USER/.zprofile
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
+    echo "eval \"\$(${HOMEBREW_PREFIX}/bin/brew shellenv)\"" >> /Users/$USER/.zprofile
+    eval "$($HOMEBREW_PREFIX/bin/brew shellenv)"
     print_success "Added Homebrew to shell profile"
 fi
 
@@ -265,6 +281,26 @@ fi
 print_heading "Restoring macOS preferences"
 
 if [ -d "$BACKUP_DIR/preferences" ]; then
+    # Function to restore a preferences file with architecture considerations
+    restore_pref_file() {
+        local source_file="$1"
+        local target_dir="$2"
+        local pref_name="$3"
+        
+        if [ -f "$source_file" ]; then
+            print_info "Restoring $pref_name preferences..."
+            mkdir -p "$target_dir"
+            cp -f "$source_file" "$target_dir/" && {
+                print_success "$pref_name preferences restored."
+                return 0
+            } || {
+                print_error "Failed to restore $pref_name preferences."
+                return 1
+            }
+        fi
+        return 0
+    }
+
     # Restore iTerm2 preferences
     if [ -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" ]; then
         print_info "Restoring iTerm2 preferences..."
@@ -453,99 +489,82 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
         } || print_error "Failed to restore System Preferences settings."
     fi
     
-    print_info "Preferences restoration completed."
-else
-    print_error "No preferences directory found in the backup."
-fi
-            print_success "Rectangle preferences restored."
-        } || print_error "Failed to restore Rectangle preferences."
-    fi
+    # Restore Rectangle preferences
+    restore_pref_file "$BACKUP_DIR/preferences/com.knollsoft.Rectangle.plist" "$HOME/Library/Preferences" "Rectangle"
     
     # Restore Mousecape settings
-    if [ -d "$BACKUP_DIR/misc/Mousecape" ]; then
-        print_info "Restoring Mousecape settings..."
-        # Create directory if it doesn't exist
-        mkdir -p "$HOME/Library/Application Support/Mousecape"
-        cp -Rf "$BACKUP_DIR/misc/Mousecape/"* "$HOME/Library/Application Support/Mousecape/" && {
-            print_success "Mousecape settings restored."
-        } || print_error "Failed to restore Mousecape settings."
-    fi
-    
+    # Function to restore application support directories
+    restore_app_support_dir() {
+        local source_dir="$1"
+        local target_base="$2"
+        local app_name="$3"
+        
+        if [ -d "$source_dir" ]; then
+            print_info "Restoring $app_name settings..."
+            # Create directory if it doesn't exist
+            mkdir -p "$target_base"
+            cp -Rf "$source_dir/"* "$target_base/" && {
+                print_success "$app_name settings restored."
+                return 0
+            } || {
+                print_error "Failed to restore $app_name settings."
+                return 1
+            }
+        fi
+        return 0
+    }
+
+    # Restore Mousecape settings
+    restore_app_support_dir "$BACKUP_DIR/misc/Mousecape" "$HOME/Library/Application Support/Mousecape" "Mousecape"
     # # Restore Raycast settings
     # if [ -d "$BACKUP_DIR/app_store/raycast" ]; then
     #     print_info "Restoring Raycast settings..."
     #     # Restore plist file
-    #     if [ -f "$BACKUP_DIR/app_store/raycast/com.raycast.macos.plist" ]; then
-    #         cp -f "$BACKUP_DIR/app_store/raycast/com.raycast.macos.plist" "$HOME/Library/Preferences/" && {
-    #             print_success "Raycast preferences file restored."
-    #         } || print_error "Failed to restore Raycast preferences file."
-    #     fi
-        
+    #     restore_pref_file "$BACKUP_DIR/app_store/raycast/com.raycast.macos.plist" "$HOME/Library/Preferences" "Raycast preferences file"
+    #     
     #     # Restore Application Support files
-    #     if [ -d "$BACKUP_DIR/app_store/raycast/com.raycast.macos" ]; then
-    #         # Create directory if it doesn't exist
-    #         mkdir -p "$HOME/Library/Application Support/com.raycast.macos"
-    #         cp -Rf "$BACKUP_DIR/app_store/raycast/com.raycast.macos/"* "$HOME/Library/Application Support/com.raycast.macos/" && {
-    #             print_success "Raycast application data restored."
-    #         } || print_error "Failed to restore Raycast application data."
-    #     fi
-        
-    #     if [ -d "$BACKUP_DIR/app_store/raycast/com.raycast.shared" ]; then
-    #         # Create directory if it doesn't exist
-    #         mkdir -p "$HOME/Library/Application Support/com.raycast.shared"
-    #         cp -Rf "$BACKUP_DIR/app_store/raycast/com.raycast.shared/"* "$HOME/Library/Application Support/com.raycast.shared/" && {
-    #             print_success "Raycast shared data restored."
-    #         } || print_error "Failed to restore Raycast shared data."
-    #     fi
+    #     restore_app_support_dir "$BACKUP_DIR/app_store/raycast/com.raycast.macos" "$HOME/Library/Application Support/com.raycast.macos" "Raycast application data"
+    #     
+    #     restore_app_support_dir "$BACKUP_DIR/app_store/raycast/com.raycast.shared" "$HOME/Library/Application Support/com.raycast.shared" "Raycast shared data"
     # fi
-    
-    print_info "Preferences restoration completed."
-    
-    # Restore Finder preferences
-    if [ -f "$BACKUP_DIR/preferences/finder.plist" ]; then
-        print_info "Restoring Finder preferences..."
-        defaults import com.apple.finder "$BACKUP_DIR/preferences/finder.plist" && {
-            killall Finder
-            print_success "Finder preferences restored."
-        } || print_error "Failed to restore Finder preferences."
-    fi
-    
-    # Restore Mission Control preferences
-    if [ -f "$BACKUP_DIR/preferences/mission_control.plist" ]; then
-        print_info "Restoring Mission Control preferences..."
-        defaults import com.apple.spaces "$BACKUP_DIR/preferences/mission_control.plist" && {
-            print_success "Mission Control preferences restored."
-        } || print_error "Failed to restore Mission Control preferences."
-    fi
-    
-    # Restore global preferences
-    if [ -f "$BACKUP_DIR/preferences/global_domain.plist" ]; then
-        print_info "Restoring global preferences..."
-        defaults import -g "$BACKUP_DIR/preferences/global_domain.plist" && {
-            print_success "Global preferences restored."
-        } || print_error "Failed to restore global preferences."
-    fi
-    
-    # Restore Terminal preferences
-    if [ -f "$BACKUP_DIR/preferences/com.apple.Terminal.plist" ]; then
-        print_info "Restoring Terminal preferences..."
-        cp -f "$BACKUP_DIR/preferences/com.apple.Terminal.plist" "$HOME/Library/Preferences/" && {
-            print_success "Terminal preferences restored."
-        } || print_error "Failed to restore Terminal preferences."
-    fi
-    
-    # Restore iTerm2 preferences
-    if [ -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" ]; then
-        print_info "Restoring iTerm2 preferences..."
-        cp -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/" && {
-            print_success "iTerm2 preferences restored."
-        } || print_error "Failed to restore iTerm2 preferences."
-    fi
     
     print_info "Preferences restoration completed."
 else
     print_error "No preferences directory found in the backup."
 fi
+    
+    # Function to import preference file using defaults command
+    import_pref_file() {
+        local pref_file="$1"
+        local domain="$2"
+        local description="$3"
+        local post_cmd="$4"
+        
+        if [ -f "$pref_file" ]; then
+            print_info "Restoring $description..."
+            defaults import "$domain" "$pref_file" && {
+                if [ -n "$post_cmd" ]; then
+                    eval "$post_cmd"
+                fi
+                print_success "$description restored."
+                return 0
+            } || {
+                print_error "Failed to restore $description."
+                return 1
+            }
+        fi
+        return 0
+    }
+
+    # Restore Finder preferences
+    import_pref_file "$BACKUP_DIR/preferences/finder.plist" "com.apple.finder" "Finder preferences" "killall Finder"
+    
+    # Restore Mission Control preferences
+    import_pref_file "$BACKUP_DIR/preferences/mission_control.plist" "com.apple.spaces" "Mission Control preferences"
+    
+    # Restore global preferences
+    import_pref_file "$BACKUP_DIR/preferences/global_domain.plist" "-g" "Global preferences"
+    
 
 
 # Restore dotfiles
