@@ -99,9 +99,9 @@ else
 fi
 
 # Check if the backup directory has the expected structure
-if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/app_store" ] || [ ! -d "$BACKUP_DIR/misc" ] || [ ! -d "$BACKUP_DIR/preferences" ]; then
+if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/dotfiles" ] || [ ! -d "$BACKUP_DIR/preferences" ]; then
     print_error "Backup directory does not have the expected structure."
-    print_info "Expected directories: homebrew, app_store, preferences, misc"
+    print_info "Expected directories: homebrew, dotfiles, preferences"
     exit 1
 fi
 
@@ -146,6 +146,13 @@ else
         exit 1
     fi
     print_success "Homebrew installed successfully."
+    
+    # Configure Homebrew in user's shell profile
+    print_info "Adding Homebrew to $USER's shell profile"
+    echo "" >> /Users/$USER/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    print_success "Added Homebrew to shell profile"
 fi
 
 # Restore Homebrew packages
@@ -170,7 +177,7 @@ fi
 
 if [ -f "$BREWFILE" ]; then
     print_info "Installing packages from $BREWFILE..."
-    brew bundle install --file="$BREWFILE" --no-lock || {
+    brew bundle install --file="$BREWFILE" || {
         print_error "Some Homebrew packages failed to install."
         print_info "Continuing with the restoration process..."
     }
@@ -232,10 +239,12 @@ if command_exists mas && [ -f "$BACKUP_DIR/app_store/mas_apps.txt" ]; then
     
     print_info "Restoring App Store applications..."
     
+    
     # Check if user is signed in to App Store
-    mas account &> /dev/null
-    if [ $? -ne 0 ]; then
-        print_error "Not signed in to the App Store. App Store applications will not be restored."
+    if ! mas account &> /dev/null; then
+        print_error "Not signed in to the App Store or mas command not compatible with this macOS version."
+        print_error "App Store applications will not be restored."
+        print_info "Continuing with restoration process..."
     else
         # Install applications
         while IFS= read -r line; do
