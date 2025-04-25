@@ -1,0 +1,86 @@
+# ======================================================
+# Brewfile.essential
+# ------------------------------------------------------
+# This is a curated selection of essential packages
+# installed via Homebrew. This file can be used to
+# quickly set up a new Mac with core applications.
+#
+# Usage:
+#   brew bundle install --file=Brewfile.essential
+# ======================================================
+
+# Taps (repositories)
+# ------------------------------------------------------
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/cask"
+
+# Development Tools
+# ------------------------------------------------------
+# Essential programming languages and dev tools
+brew "git"                      # Version control system
+brew "node"                     # JavaScript runtime environment
+brew "python@3.13"              # Python programming language
+brew "neovim"                   # Modern vim text editor
+
+# Terminal Utilities
+# ------------------------------------------------------
+# Command line tools to improve productivity
+brew "fzf"                      # Fuzzy finder
+brew "ripgrep"                  # Fast grep alternative
+brew "bat"                      # Better cat command with syntax highlighting
+brew "eza"                      # Modern replacement for ls
+brew "fd"                       # Simple, fast and user-friendly alternative to find
+brew "zoxide"                   # Smarter cd command
+brew "jq"                       # Command-line JSON processor
+brew "htop"                     # Interactive process viewer
+brew "btop"                     # Resource monitor
+brew "tree"                     # Display directories as trees
+brew "zsh-autosuggestions"      # Fish-like autosuggestions for zsh
+brew "neofetch"                 # Fast, highly customizable system info script
+brew "mas"                      # Mac App Store command-line interface
+
+
+# Shell Enhancements
+# ------------------------------------------------------
+brew "powerlevel10k"            # Zsh theme with many features
+
+# GUI Applications (Casks)
+# ------------------------------------------------------
+# Desktop applications
+cask "visual-studio-code"       # Code editor
+cask "warp"                     # Modern terminal
+cask "iterm2"                   # Terminal emulator
+cask "google-chrome"            # Web browser
+cask "alt-tab"                  # Windows-style alt-tab window switcher
+cask "raycast"                  # Productivity tool and launcher
+cask "karabiner-elements"       # Keyboard customizer
+cask "opera"                    # Web browser
+cask "app-cleaner"              # Application uninstaller
+cask "font-symbols-only-nerd-font" # Symbols-only icons from popular 'iconic fonts'
+cask "google-drive"             # Client for the Google Drive storage service
+cask "hiddenbar"                # Menu bar icon organizer
+cask "linearmouse"              # Customize mouse behavior
+cask "postman"                  # API platform for building and using APIs
+cask "protonvpn"                # VPN client focusing on security
+cask "pycharm-ce"               # IDE for Python programming - Community Edition
+cask "raycast"                  # Control your tools with a few keystrokes
+cask "rectangle"                # Window management
+
+
+# To add or remove packages:
+# 1. Uncomment lines below to install, or comment out to avoid installing
+# 2. Add new packages by adding new lines following the format: brew "package-name" or cask "application-name"
+# 3. Run 'brew bundle install --file=Brewfile.essential' to install
+
+# Additional Development Tools
+# ------------------------------------------------------
+# brew "docker"                 # Containerization platform
+
+# Additional Terminal Utilities  
+# ------------------------------------------------------
+
+# Additional GUI Applications
+# ------------------------------------------------------
+# cask "docker"                 # Docker Desktop app
+

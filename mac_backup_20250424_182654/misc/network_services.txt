@@ -1,0 +1,5 @@
+An asterisk (*) denotes that a network service is disabled.
+Ethernet
+Ethernet 2
+iPhone USB
+ProtonVPN
