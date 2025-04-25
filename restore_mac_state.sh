@@ -13,6 +13,11 @@
 # Exit on error
 set -e
 
+# Define info print helper
+print_info() {
+    echo -e "\033[1;34m[INFO]\033[0m $1"
+}
+
 # Detect architecture and set paths accordingly
 ARCH=$(uname -m)
 if [[ "$ARCH" == "arm64" ]]; then
