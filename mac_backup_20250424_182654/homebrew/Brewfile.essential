@@ -36,6 +36,8 @@ brew "zsh-autosuggestions"      # Fish-like autosuggestions for zsh
 brew "neofetch"                 # Fast, highly customizable system info script
 brew "mas"                      # Mac App Store command-line interface
 brew "stow"                     # Symlink tree farm
+brew "powerlevel10k"            # Theme for zsh
+
 
 
 # Shell Enhancements

@@ -6,3 +6,9 @@ misc
 .DS_Store
 
 .nvimlog
+
+^restore_
+
+^fonts
+
+^mac_backup

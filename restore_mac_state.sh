@@ -96,7 +96,7 @@ BACKUP_DIR=""
 if [ -z "$1" ]; then
     # No argument provided, look for the most recent backup
     print_info "No backup directory specified, looking for most recent backup..."
-    LATEST_BACKUP=$(find "$HOME" -maxdepth 1 -name "mac_backup_*" -type d | sort -r | head -n 1)
+    LATEST_BACKUP=$(find "$HOME" -maxdepth 2 -name "mac_backup_*" -type d | sort -r | head -n 1)
     
     if [ -z "$LATEST_BACKUP" ]; then
         print_error "No backup directory found. Please specify the backup directory as an argument."
@@ -116,9 +116,9 @@ else
 fi
 
 # Check if the backup directory has the expected structure
-if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/app_store" ]|| [ ! -d "$BACKUP_DIR/misc" ] || [ ! -d "$BACKUP_DIR/preferences" ]; then
+if [ ! -d "$BACKUP_DIR/homebrew" ] || [ ! -d "$BACKUP_DIR/app_store" ]|| [ ! -d "$BACKUP_DIR/misc" ] || [ ! -d "$BACKUP_DIR/preferences" ] || [ ! -d "$BACKUP_DIR/fonts" ]; then
     print_error "Backup directory does not have the expected structure."
-    print_info "Expected directories: homebrew, dotfiles, preferences"
+    print_info "Expected directories: app_store, homebrew, fonts, preferences, misc"
     exit 1
 fi
 
@@ -140,6 +140,11 @@ else
     fi
     print_success "Xcode Command Line Tools installed successfully."
 fi
+
+# install oh-my-zsh
+print_heading "installing oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && print_success "oh-my-zsh installed successfully"
+
 
 # Install Homebrew if it's not installed
 print_heading "Checking for Homebrew"
@@ -207,15 +212,15 @@ else
     # Try individual files if no Brewfile is found
     print_info "No Brewfile found, using individual package lists..."
     
-    # Install taps
-    if [ -f "$BACKUP_DIR/homebrew/brew_taps.txt" ]; then
-        print_subheading "Restoring Homebrew taps"
-        while IFS= read -r tap; do
-            print_info "Adding tap: $tap"
-            brew tap "$tap" || print_error "Failed to add tap: $tap"
-        done < "$BACKUP_DIR/homebrew/brew_taps.txt"
-        print_success "Homebrew taps restored."
-    fi
+    # # Install taps
+    # if [ -f "$BACKUP_DIR/homebrew/brew_taps.txt" ]; then
+    #     print_subheading "Restoring Homebrew taps"
+    #     while IFS= read -r tap; do
+    #         print_info "Adding tap: $tap"
+    #         brew tap "$tap" || print_error "Failed to add tap: $tap"
+    #     done < "$BACKUP_DIR/homebrew/brew_taps.txt"
+    #     print_success "Homebrew taps restored."
+    # fi
     
     # Install formulae
     if [ -f "$BACKUP_DIR/homebrew/brew_packages.txt" ]; then
@@ -238,13 +243,11 @@ else
     fi
 fi
 
-# Install oh-my-zsh 
-
-print_heading "Installing oh-my-zsh"
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-print_success "oh-my-zsh has been installed"
-
+# fonts
+if [ -f "$BACKUP_DIR/fonts/font_list.txt" ]; then
+        print_subheading "Restoring fonts..."
+        $BACKUP_DIR/fonts/restore_font.sh
+    fi
 
 # Restore Mac App Store applications
 print_heading "Restoring Mac App Store applications"
@@ -313,14 +316,6 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
         fi
         return 0
     }
-
-    # Restore iTerm2 preferences
-    if [ -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" ]; then
-        print_info "Restoring iTerm2 preferences..."
-        cp -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/" && {
-            print_success "iTerm2 preferences restored."
-        } || print_error "Failed to restore iTerm2 preferences."
-    fi
     
     # Restore Desktop settings
     print_subheading "Restoring Desktop preferences"
@@ -338,6 +333,15 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
         } || print_error "Failed to restore Desktop picture settings."
     fi
     
+    # Restore Dock settings
+    print_subheading "Restoring Dock preferences"
+    if [ -f "$BACKUP_DIR/preferences/dock.plist" ]; then
+        print_info "Restoring Dock preferences..."
+        defaults import com.apple.dock "$BACKUP_DIR/preferences/dock.plist" 2>/dev/null && {
+            print_success "Dock preferences restored."
+        } || print_error "Failed to restore Dock preferences."
+    fi
+
     # Restore Widget/Dashboard settings
     print_subheading "Restoring Widget preferences"
     if [ -f "$BACKUP_DIR/preferences/dashboard.plist" ]; then
@@ -502,10 +506,22 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
         } || print_error "Failed to restore System Preferences settings."
     fi
     
+    # Restore iTerm2 preferences
+    if [ -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" ]; then
+        print_info "Restoring iTerm2 preferences..."
+        cp -f "$BACKUP_DIR/preferences/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/" && {
+            print_success "iTerm2 preferences restored."
+        } || print_error "Failed to restore iTerm2 preferences."
+    fi
+
     # Restore Rectangle preferences
     restore_pref_file "$BACKUP_DIR/preferences/com.knollsoft.Rectangle.plist" "$HOME/Library/Preferences" "Rectangle"
     
-    # Restore Mousecape settings
+
+    # Restore AltTab settings
+    restore_pref_file "$BACKUP_DIR/com.lwouis.alt-tab-macos.plist" "$HOME/Library/Preferences/"
+
+
     # Function to restore application support directories
     restore_app_support_dir() {
         local source_dir="$1"
@@ -526,9 +542,20 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
         fi
         return 0
     }
-
     # Restore Mousecape settings
+    print_info "Restoring Mousescape settings"
     restore_app_support_dir "$BACKUP_DIR/misc/Mousecape" "$HOME/Library/Application Support/Mousecape" "Mousecape"
+
+
+    # Restore Finder Sidebar
+    print_info "Restoring Finder Sidebar preferences..."
+    restore_pref_file  "$BACKUP_DIR/preferences/com.apple.LSSharedFileList.FavoriteItems.sfl2" "$HOME/Library/Application\ Support/com.apple.sharedfilelist/" && {
+            print_success "Finder Sidebar preferences restored."
+        } || print_error "Failed to restore Finder Sidebar preferences."
+    killall Finder
+open /System/Library/CoreServices/Finder.app
+
+
     # # Restore Raycast settings
     # if [ -d "$BACKUP_DIR/app_store/raycast" ]; then
     #     print_info "Restoring Raycast settings..."
@@ -580,19 +607,23 @@ fi
     
 
 
-# Restore dotfiles
-print_heading "Restoring dotfiles"
 
-if [ -d "$BACKUP_DIR/dotfiles" ]; then
-    print_info "Copying dotfiles to home directory..."
-    cp -R "$BACKUP_DIR/dotfiles/." "$HOME/" || {
-        print_error "Failed to copy some dotfiles."
-        print_info "Continuing with the restoration process..."
-    }
-    print_success "Dotfiles restored."
-else
-    print_error "No dotfiles directory found in the backup."
-fi
+# # Restore dotfiles
+# print_heading "Restoring dotfiles"
+
+# if [ -d "$BACKUP_DIR/dotfiles" ]; then
+#     print_info "Copying dotfiles to home directory..."
+#     cp -R "$BACKUP_DIR/dotfiles/." "$HOME/" || {
+#         print_error "Failed to copy some dotfiles."
+#         print_info "Continuing with the restoration process..."
+#     }
+#     print_success "Dotfiles restored."
+# else
+#     print_error "No dotfiles directory found in the backup."
+# fi
+
+stow "~/.dotfiles" 
+source "~/.zshrc" 
 
 
 # Verify installations
@@ -713,10 +744,10 @@ if command_exists tmux && [ -f "$HOME/.tmux.conf" ]; then
     print_info "Tmux configuration restored. Run 'tmux source-file ~/.tmux.conf' to apply changes in existing sessions."
 fi
 
-# Check additional application-specific settings
-if [ -d "$HOME/Library/Application Support/Raycast" ] || [ -f "$HOME/Library/Preferences/com.raycast.macos.plist" ]; then
-    print_info "Raycast settings were restored. Launch Raycast to verify all extensions and settings are working."
-fi
+# # Check additional application-specific settings
+# if [ -d "$HOME/Library/Application Support/Raycast" ] || [ -f "$HOME/Library/Preferences/com.raycast.macos.plist" ]; then
+#     print_info "Raycast settings were restored. Launch Raycast to verify all extensions and settings are working."
+# fi
 
 if command_exists brew && brew list --cask | grep -q karabiner-elements; then
     print_info "Karabiner-Elements was installed. You may need to enable it in Security & Privacy settings."

@@ -1,0 +1,1842 @@
+Kokonor Regular
+Iosevka NF SemiBold Italic
+JetBrainsMonoNL NFP ExtraLight
+Hack Nerd Font Propo Bold
+Helvetica
+Helvetica Oblique
+Helvetica Light
+Helvetica Light Oblique
+Helvetica Bold
+Helvetica Bold Oblique
+JetBrainsMono NF Thin Italic
+Microsoft Sans Serif
+Hack Nerd Font Mono Bold Italic
+Papyrus
+Papyrus Condensed
+MesloLGS NF Regular
+Bradley Hand Bold
+Georgia Bold Italic
+Charter Italic
+Charter Black
+Charter Black Italic
+Charter Bold Italic
+Charter Bold
+Charter Roman
+Noto Serif Myanmar ExtraBold
+Noto Serif Myanmar Thin
+Noto Serif Myanmar Black
+Noto Serif Myanmar SemiBold
+Noto Serif Myanmar ExtraLight
+Noto Serif Myanmar Regular
+Noto Serif Myanmar Bold
+Noto Serif Myanmar Medium
+Noto Serif Myanmar Light
+Iosevka NFM ExtraLight Italic
+Iosevka NFM Medium Italic
+MesloLGS NF Italic
+Bodoni 72 Smallcaps Book
+Tamil MN Bold
+Tamil MN
+Courier New Italic
+JetBrains Mono NL ExtraLight
+JetBrainsMonoNL NF Regular
+Euphemia UCAS
+Euphemia UCAS Italic
+Euphemia UCAS Bold
+JetBrains Mono ExtraLight
+JetBrainsMonoNL NFM SemiBold
+Mshtakan
+Mshtakan Oblique
+Mshtakan BoldOblique
+Mshtakan Bold
+JetBrainsMonoNL NFP Italic
+JetBrains Mono Bold Italic
+Iosevka NFM SemiBold
+Iosevka NFP Thin Oblique
+JetBrainsMonoNL NFP ExtraBold
+JetBrainsMono NF Thin
+JetBrains Mono NL SemiBold Italic
+Iosevka NF Thin
+Kohinoor Telugu Medium
+Kohinoor Telugu
+Kohinoor Telugu Light
+Kohinoor Telugu Semibold
+Kohinoor Telugu Bold
+Devanagari MT Bold
+Devanagari MT
+LG Smart UI Light
+Hiragino Sans W3
+.Hiragino Kaku Gothic Interface W3
+Arial Rounded MT Bold
+Iosevka NFP ExtraBold Oblique
+Impact
+Hack Nerd Font Mono Bold
+JetBrainsMonoNL NFM ExtraLight
+JetBrains Mono NL Regular
+Iosevka NFP Bold Italic
+Skia Regular
+Skia Light Condensed
+Skia Condensed
+Skia Light
+Skia Light Extended
+Skia Bold
+Skia Black Condensed
+Skia Black
+Skia Black Extended
+Skia Extended
+Muna Black
+Muna Bold
+Muna Regular
+.Muna PUA
+.Muna PUA Bold
+.Muna PUA Black
+Iosevka NFP ExtraBold Italic
+JetBrainsMono NFP Italic
+JetBrains Mono NL Medium
+Hack Nerd Font Mono Regular
+JetBrainsMono NFP Bold Italic
+JetBrainsMono NF ExtraLight Italic
+Iosevka NFP SemiBold Italic
+Big Caslon Medium
+Iosevka NF Medium Italic
+Chalkboard SE Bold
+Chalkboard SE Regular
+Chalkboard SE Light
+AppleGothic Regular
+Iosevka NF Light Oblique
+Andale Mono
+JetBrains Mono Bold
+Lucida Grande Bold
+Lucida Grande
+.Lucida Grande UI Regular
+.Lucida Grande UI Bold
+Hiragino Mincho ProN W3
+Hiragino Mincho ProN W6
+JetBrainsMonoNL NFM Regular
+Hiragino Maru Gothic ProN W4
+Thonburi Bold
+Thonburi
+Thonburi Light
+AppleMyungjo Regular
+JetBrainsMonoNL NFP Thin Italic
+Comic Sans MS Bold
+.SF NS Regular Italic
+.SF NS Medium Italic
+.SF NS Light Italic
+.SF NS Thin Italic
+.SF NS Ultralight Italic
+.SF NS Semibold Italic
+.SF NS Bold Italic
+.SF NS Heavy Italic
+.SF NS Black Italic
+Kefa Regular
+Kefa Bold
+Museo Sans 700
+Zapfino
+Phosphate Solid
+Phosphate Inline
+JetBrainsMono NFM Thin Italic
+Iosevka NFM Light Italic
+.New York Regular
+.New York Regular G1
+.New York Regular G2
+.New York Regular G3
+.New York Regular G4
+.New York Medium
+.New York Semibold
+.New York Bold
+.New York Bold G1
+.New York Bold G2
+.New York Bold G3
+.New York Bold G4
+.New York Heavy
+.New York Black
+Mishafi Regular
+JetBrains Mono Italic
+Iosevka NFP ExtraLight Italic
+Hack Nerd Font Propo Italic
+JetBrains Mono Light Italic
+Avenir Next Condensed Medium Italic
+Avenir Next Condensed Heavy
+Avenir Next Condensed Demi Bold
+Avenir Next Condensed Ultra Light Italic
+Avenir Next Condensed Regular
+Avenir Next Condensed Medium
+Avenir Next Condensed Ultra Light
+Avenir Next Condensed Demi Bold Italic
+Avenir Next Condensed Heavy Italic
+Avenir Next Condensed Bold
+Avenir Next Condensed Italic
+Avenir Next Condensed Bold Italic
+Khmer Sangam MN
+Tahoma Bold
+PT Mono
+PT Mono Bold
+Iosevka NFM Thin Oblique
+LG Smart_H Light
+.LastResort
+JetBrainsMonoNL NFM SemiBold Italic
+Malayalam Sangam MN Bold
+Malayalam Sangam MN
+JetBrains Mono NL ExtraLight Italic
+.SF Georgian Rounded Regular
+.SF Georgian Rounded Medium
+.SF Georgian Rounded Light
+.SF Georgian Rounded Thin
+.SF Georgian Rounded Ultralight
+.SF Georgian Rounded Semibold
+.SF Georgian Rounded Bold
+.SF Georgian Rounded Heavy
+.SF Georgian Rounded Black
+Chalkduster
+Arial Black
+Iosevka NFM ExtraBold
+JetBrainsMonoNL NF Medium
+Iosevka NFM Bold Oblique
+JetBrainsMonoNL NFP Thin
+LG Smart_0521_HS98 Regular
+Iosevka NF Bold Italic
+Iosevka NFM
+Arial Narrow
+Trebuchet MS Italic
+Arial Italic
+Noto Sans Batak Regular
+Hiragino Sans W4
+.Hiragino Kaku Gothic Interface W4
+JetBrains Mono Medium Italic
+Tahoma
+.Times LT MM
+JetBrainsMono NF SemiBold
+LG Smart UI Bold
+Lao MN
+Lao MN Bold
+Kannada Sangam MN
+Kannada Sangam MN Bold
+Iosevka NFP Heavy Italic
+Hack Nerd Font Propo Regular
+JetBrains Mono SemiBold
+Myanmar MN Bold
+Myanmar MN
+Wingdings 3
+Trattatello
+Iosevka NFP Thin Italic
+Iosevka NFM Heavy Oblique
+JetBrains Mono Medium
+Heiti SC Light
+Heiti TC Light
+Iosevka NF Medium Oblique
+.SF NS Rounded Regular
+.SF NS Rounded Regular G1
+.SF NS Rounded Regular G2
+.SF NS Rounded Regular G3
+.SF NS Rounded Regular G4
+.SF NS Rounded Medium
+.SF NS Rounded Medium G1
+.SF NS Rounded Medium G2
+.SF NS Rounded Medium G3
+.SF NS Rounded Medium G4
+.SF NS Rounded Light
+.SF NS Rounded Light G1
+.SF NS Rounded Light G2
+.SF NS Rounded Light G3
+.SF NS Rounded Light G4
+.SF NS Rounded Thin
+.SF NS Rounded Thin G1
+.SF NS Rounded Thin G2
+.SF NS Rounded Thin G3
+.SF NS Rounded Thin G4
+.SF NS Rounded Ultralight
+.SF NS Rounded UltralightG1
+.SF NS Rounded UltralightG2
+.SF NS Rounded UltralightG3
+.SF NS Rounded UltralightG4
+.SF NS Rounded Ultrathin
+.SF NS Rounded Ultrathin G1
+.SF NS Rounded Ultrathin G2
+.SF NS Rounded Ultrathin G3
+.SF NS Rounded Ultrathin G4
+.SF NS Rounded Semibold
+.SF NS Rounded Semibold G1
+.SF NS Rounded Semibold G2
+.SF NS Rounded Semibold G3
+.SF NS Rounded Semibold G4
+.SF NS Rounded Bold
+.SF NS Rounded Bold G1
+.SF NS Rounded Bold G2
+.SF NS Rounded Bold G3
+.SF NS Rounded Bold G4
+.SF NS Rounded Heavy
+.SF NS Rounded Heavy G1
+.SF NS Rounded Heavy G2
+.SF NS Rounded Heavy G3
+.SF NS Rounded Heavy G4
+.SF NS Rounded Black
+Nadeem Regular
+.Nadeem PUA
+JetBrainsMono NFM Italic
+JetBrainsMonoNL NFM ExtraBold Italic
+Kohinoor Gujarati Light
+Kohinoor Gujarati Medium
+Kohinoor Gujarati Regular
+Kohinoor Gujarati Bold
+Kohinoor Gujarati Semibold
+Iosevka NF ExtraBold
+Hack Nerd Font Italic
+JetBrains Mono NL ExtraBold
+Iosevka NFP
+JetBrains Mono ExtraBold
+JetBrainsMonoNL NFP Medium Italic
+Hack Nerd Font Mono Italic
+Iosevka NF Heavy Italic
+.Aqua Kana
+.Aqua Kana Bold
+Times New Roman Bold Italic
+Trebuchet MS Bold
+Gujarati MT Bold
+Gujarati MT
+Wingdings
+Futura Condensed ExtraBold
+Futura Medium Italic
+Futura Bold
+Futura Condensed Medium
+Futura Medium
+JetBrainsMonoNL NF ExtraLight Italic
+JetBrainsMono NFP Light Italic
+JetBrainsMonoNL NFP Bold
+JetBrainsMonoNL NFP SemiBold Italic
+JetBrains Mono NL Bold Italic
+JetBrainsMono NF Light
+Iosevka NF ExtraBold Oblique
+Iosevka NFM Italic
+JetBrainsMono NFM Bold Italic
+Arial Bold Italic
+JetBrainsMonoNL NFP Medium
+Kohinoor Bangla Bold
+Kohinoor Bangla Semibold
+Kohinoor Bangla Light
+Kohinoor Bangla
+Kohinoor Bangla Medium
+STIX Two Text Bold
+STIX Two Text Regular
+STIX Two Text Medium
+STIX Two Text SemiBold
+Copperplate Light
+Copperplate Bold
+Copperplate
+Baskerville Italic
+Baskerville SemiBold Italic
+Baskerville
+Baskerville Bold Italic
+Baskerville SemiBold
+Baskerville Bold
+Bangla MN Bold
+Bangla MN
+Iosevka NFM ExtraBold Oblique
+JetBrainsMono NFP Thin
+JetBrainsMono NFP ExtraBold Italic
+ITF Devanagari Marathi Book
+ITF Devanagari Light
+ITF Devanagari Marathi Bold
+ITF Devanagari Marathi Medium
+ITF Devanagari Book
+ITF Devanagari Medium
+ITF Devanagari Marathi Demi
+ITF Devanagari Demi
+ITF Devanagari Bold
+ITF Devanagari Marathi Light
+Apple Chancery
+JetBrainsMonoNL NF Medium Italic
+Verdana Bold
+.SF Armenian Rounded Regular
+.SF Armenian Rounded Medium
+.SF Armenian Rounded Light
+.SF Armenian Rounded Thin
+.SF Armenian Rounded Ultralight
+.SF Armenian Rounded Semibold
+.SF Armenian Rounded Bold
+.SF Armenian Rounded Heavy
+.SF Armenian Rounded Black
+Georgia Bold
+Iosevka NFP Heavy
+Sana Regular
+.Sana PUA
+Iosevka NFM Medium
+Academy Engraved LET Plain:1.0
+JetBrainsMono NF Italic
+Iosevka NFP Light
+Iosevka NFP SemiBold Oblique
+Hiragino Sans W5
+.Hiragino Kaku Gothic Interface W5
+.SF Compact Rounded Regular
+.SF Compact Rounded Regular
+.SF Compact Rounded Medium
+.SF Compact Rounded Light
+.SF Compact Rounded Thin
+.SF Compact Rounded Ultralight
+.SF Compact Rounded Semibold
+.SF Compact Rounded Bold
+.SF Compact Rounded Heavy
+.SF Compact Rounded Black
+JetBrainsMonoNL NFP ExtraBold Italic
+JetBrainsMonoNL NF Thin
+.SF Arabic Regular
+.SF Arabic Medium
+.SF Arabic Light
+.SF Arabic Thin
+.SF Arabic Ultralight
+.SF Arabic Semibold
+.SF Arabic Bold
+.SF Arabic Heavy
+.SF Arabic Black
+JetBrainsMonoNL NF Light
+LG Smart_H Regular
+.New York Regular Italic
+.New York Regular Italic G1
+.New York Regular Italic G2
+.New York Regular Italic G3
+.New York Regular Italic G4
+.New York Medium Italic
+.New York Semibold Italic
+.New York Bold Italic
+.New York Bold Italic G1
+.New York Bold Italic G2
+.New York Bold Italic G3
+.New York Bold Italic G4
+.New York Heavy Italic
+.New York Black Italic
+Al Bayan Bold
+Al Bayan Plain
+.Al Bayan PUA Plain
+.Al Bayan PUA Bold
+JetBrainsMonoNL NF Bold
+Iosevka NF Heavy
+Iosevka NFM Thin
+Apple Symbols
+.SF NS Mono Light Italic Regular Italic
+.SF NS Mono Light Italic Medium Italic
+.SF NS Mono Light Italic Light Italic
+.SF NS Mono Light Italic Semibold Italic
+.SF NS Mono Light Italic Bold Italic
+.SF NS Mono Light Italic Heavy Italic
+Noto Sans Tagalog Regular
+Noto Sans Myanmar Bold
+Noto Sans Myanmar Black
+Noto Sans Myanmar Regular
+Noto Sans Myanmar Thin
+Noto Sans Myanmar Light
+Noto Sans Myanmar ExtraLight
+Noto Sans Myanmar SemiBold
+Noto Sans Myanmar Medium
+Noto Sans Myanmar ExtraBold
+Times New Roman Italic
+Zapf Dingbats
+Hack Nerd Font Bold Italic
+.SF Compact Regular Italic
+.SF Compact Regular Italic G1
+.SF Compact Regular Italic G2
+.SF Compact Regular Italic G3
+.SF Compact Regular Italic G4
+.SF Compact Medium Italic
+.SF Compact Medium Italic G1
+.SF Compact Medium Italic G2
+.SF Compact Medium Italic G3
+.SF Compact Medium Italic G4
+.SF Compact Light Italic
+.SF Compact Light Italic G1
+.SF Compact Light Italic G2
+.SF Compact Light Italic G3
+.SF Compact Light Italic G4
+.SF Compact Thin Italic
+.SF Compact Thin Italic G1
+.SF Compact Thin Italic G2
+.SF Compact Thin Italic G3
+.SF Compact Thin Italic G4
+.SF Compact Ultralight Italic
+.SF Compact Ultralight Italic G1
+.SF Compact Ultralight Italic G2
+.SF Compact Ultralight Italic G3
+.SF Compact Ultralight Italic G4
+.SF Compact Semibold Italic
+.SF Compact Semibold Italic G1
+.SF Compact Semibold Italic G2
+.SF Compact Semibold Italic G3
+.SF Compact Semibold Italic G4
+.SF Compact Bold Italic
+.SF Compact Bold Italic G1
+.SF Compact Bold Italic G2
+.SF Compact Bold Italic G3
+.SF Compact Bold Italic G4
+.SF Compact Heavy Italic
+.SF Compact Heavy Italic G1
+.SF Compact Heavy Italic G2
+.SF Compact Heavy Italic G3
+.SF Compact Heavy Italic G4
+.SF Compact Black Italic
+Iosevka NFP Heavy Oblique
+JetBrainsMonoNL NF Bold Italic
+Iosevka NFP SemiBold
+Helvetica Neue UltraLight
+Helvetica Neue Condensed Bold
+Helvetica Neue Bold
+Helvetica Neue
+Helvetica Neue Bold Italic
+Helvetica Neue Light
+Helvetica Neue Condensed Black
+Helvetica Neue Light Italic
+Helvetica Neue Medium Italic
+Helvetica Neue Thin Italic
+Helvetica Neue Thin
+Helvetica Neue Medium
+Helvetica Neue UltraLight Italic
+Helvetica Neue Italic
+JetBrainsMono NFM SemiBold Italic
+Luminari
+Kohinoor Devanagari Semibold
+Kohinoor Devanagari Light
+Kohinoor Devanagari Regular
+Kohinoor Devanagari Bold
+Kohinoor Devanagari Medium
+Noto Sans Kannada ExtraBold
+Noto Sans Kannada Medium
+Noto Sans Kannada Black
+Noto Sans Kannada Bold
+Noto Sans Kannada Regular
+Noto Sans Kannada Thin
+Noto Sans Kannada Light
+Noto Sans Kannada SemiBold
+Noto Sans Kannada ExtraLight
+JetBrainsMono NF Regular
+.SF Camera Regular
+.SF Camera Regular
+.SF Camera Medium
+.SF Camera Light
+.SF Camera Thin
+.SF Camera Ultralight
+.SF Camera Semibold
+.SF Camera Bold
+.SF Camera Heavy
+PT Sans
+PT Sans Narrow
+PT Sans Caption
+PT Sans Bold
+PT Sans Narrow Bold
+PT Sans Caption Bold
+PT Sans Italic
+PT Sans Bold Italic
+Avenir Next Heavy
+Avenir Next Demi Bold
+Avenir Next Demi Bold Italic
+Avenir Next Italic
+Avenir Next Medium Italic
+Avenir Next Bold
+Avenir Next Heavy Italic
+Avenir Next Ultra Light Italic
+Avenir Next Ultra Light
+Avenir Next Bold Italic
+Avenir Next Regular
+Avenir Next Medium
+Noto Sans NKo Regular
+Gurmukhi MN Bold
+Gurmukhi MN
+Geeza Pro Bold
+Geeza Pro Regular
+.Geeza Pro Interface Regular
+.Geeza Pro Interface Light
+.Geeza Pro Interface Bold
+.Geeza Pro PUA
+.Geeza Pro PUA Bold
+Gurmukhi MT
+Iosevka NFP Light Italic
+Iosevka NFP Medium
+Mishafi Gold Regular
+JetBrains Mono NL Italic
+Shree Devanagari 714
+Shree Devanagari 714 Bold
+Shree Devanagari 714 Bold Italic
+Shree Devanagari 714 Italic
+Hiragino Sans GB W6
+Hiragino Sans GB W3
+.Hiragino Sans GB Interface W3
+.Hiragino Sans GB Interface W6
+Hack Nerd Font Bold
+Times New Roman
+Symbols Nerd Font
+JetBrainsMonoNL NF Light Italic
+Iosevka NFM Medium Oblique
+Apple SD Gothic Neo Thin
+Apple SD Gothic Neo ExtraBold
+Apple SD Gothic Neo Bold
+Apple SD Gothic Neo UltraLight
+Apple SD Gothic Neo Light
+Apple SD Gothic Neo Medium
+Apple SD Gothic Neo Regular
+Apple SD Gothic Neo Heavy
+Apple SD Gothic Neo SemiBold
+.Apple SD Gothic NeoI Regular
+.Apple SD Gothic NeoI Medium
+.Apple SD Gothic NeoI Light
+.Apple SD Gothic NeoI UltraLight
+.Apple SD Gothic NeoI Thin
+.Apple SD Gothic NeoI SemiBold
+.Apple SD Gothic NeoI Bold
+.Apple SD Gothic NeoI ExtraBold
+.Apple SD Gothic NeoI Heavy
+JetBrainsMonoNL NF ExtraBold Italic
+Iosevka NF Medium
+Iosevka NFM SemiBold Italic
+Chalkboard Bold
+Chalkboard
+JetBrainsMonoNL NFM Bold
+Hiragino Sans W6
+.Hiragino Kaku Gothic Interface W6
+.SF Hebrew Regular
+.SF Hebrew Medium
+.SF Hebrew Light
+.SF Hebrew Thin
+.SF Hebrew Ultralight
+.SF Hebrew Semibold
+.SF Hebrew Bold
+.SF Hebrew Heavy
+.SF Hebrew Black
+.Keyboard
+Waseem Light
+Waseem Regular
+Khmer MN
+Khmer MN Bold
+JetBrainsMonoNL NF ExtraBold
+Symbol
+JetBrainsMono NF Light Italic
+MesloLGS NF Bold
+Al Nile
+Al Nile Bold
+.Al Nile PUA
+.Al Nile PUA Bold
+Hack Nerd Font Regular
+Beirut Regular
+.Beirut PUA
+DecoType Naskh Regular
+.DecoType Naskh PUA
+Iosevka NFM Bold Italic
+Arial Narrow Italic
+JetBrainsMono NFP Thin Italic
+JetBrains Mono NL ExtraBold Italic
+JetBrainsMono NFP Regular
+Georgia
+Iosevka NFP Light Oblique
+JetBrainsMonoNL NFM ExtraLight Italic
+JetBrainsMono NF ExtraBold
+.SF Armenian Regular
+.SF Armenian Medium
+.SF Armenian Light
+.SF Armenian Thin
+.SF Armenian Ultralight
+.SF Armenian Semibold
+.SF Armenian Bold
+.SF Armenian Heavy
+.SF Armenian Black
+JetBrainsMonoNL NFP Light
+Arial Hebrew Scholar Light
+Arial Hebrew Scholar Bold
+Arial Hebrew
+Arial Hebrew Scholar
+Arial Hebrew Light
+Arial Hebrew Bold
+.Arial Hebrew Desk Interface
+.Arial Hebrew Desk Interface Light
+.Arial Hebrew Desk Interface Bold
+.SF NS Regular
+.SF NS Regular G1
+.SF NS Regular G2
+.SF NS Regular G3
+.SF NS Regular G4
+.SF NS Semi Expanded Regular
+.SF NS Semi Expanded Regular G1
+.SF NS Semi Expanded Regular G2
+.SF NS Semi Expanded Regular G3
+.SF NS Semi Expanded Regular G4
+.SF NS Semi Condensed Regular
+.SF NS Semi Condensed Regular G1
+.SF NS Semi Condensed Regular G2
+.SF NS Semi Condensed Regular G3
+.SF NS Semi Condensed Regular G4
+.SF NS Medium
+.SF NS Medium G1
+.SF NS Medium G2
+.SF NS Medium G3
+.SF NS Medium G4
+.SF NS Semi Expanded Medium
+.SF NS Semi Expanded Medium G1
+.SF NS Semi Expanded Medium G2
+.SF NS Semi Expanded Medium G3
+.SF NS Semi Expanded Medium G4
+.SF NS Semi Condensed Medium
+.SF NS Semi Condensed Medium G1
+.SF NS Semi Condensed Medium G2
+.SF NS Semi Condensed Medium G3
+.SF NS Semi Condensed Medium G4
+.SF NS Light
+.SF NS Light G1
+.SF NS Light G2
+.SF NS Light G3
+.SF NS Light G4
+.SF NS Semi Expanded Light
+.SF NS Semi Expanded Light G1
+.SF NS Semi Expanded Light G2
+.SF NS Semi Expanded Light G3
+.SF NS Semi Expanded Light G4
+.SF NS Semi Condensed Light
+.SF NS Semi Condensed Light G1
+.SF NS Semi Condensed Light G2
+.SF NS Semi Condensed Light G3
+.SF NS Semi Condensed Light G4
+.SF NS Thin
+.SF NS Thin G1
+.SF NS Thin G2
+.SF NS Thin G3
+.SF NS Thin G4
+.SF NS Semi Expanded Thin
+.SF NS Semi Expanded Thin G1
+.SF NS Semi Expanded Thin G2
+.SF NS Semi Expanded Thin G3
+.SF NS Semi Expanded Thin G4
+.SF NS Semi Condensed Thin
+.SF NS Semi Condensed Thin G1
+.SF NS Semi Condensed Thin G2
+.SF NS Semi Condensed Thin G3
+.SF NS Semi Condensed Thin G4
+.SF NS Ultralight
+.SF NS Ultralight G1
+.SF NS Ultralight G2
+.SF NS Ultralight G3
+.SF NS Ultralight G4
+.SF NS Semi Expanded Ultralight
+.SF NS Semi Expanded Ultralight G1
+.SF NS Semi Expanded Ultralight G2
+.SF NS Semi Expanded Ultralight G3
+.SF NS Semi Expanded Ultralight G4
+.SF NS Semi Condensed Ultralight
+.SF NS Semi Condensed Ultralight G1
+.SF NS Semi Condensed Ultralight G2
+.SF NS Semi Condensed Ultralight G3
+.SF NS Semi Condensed Ultralight G4
+.SF NS Semibold
+.SF NS Semibold G1
+.SF NS Semibold G2
+.SF NS Semibold G3
+.SF NS Semibold G4
+.SF NS Semi Expanded Semibold
+.SF NS Semi Expanded Semibold G1
+.SF NS Semi Expanded Semibold G2
+.SF NS Semi Expanded Semibold G3
+.SF NS Semi Expanded Semibold G4
+.SF NS Semi Condensed Semibold
+.SF NS Semi Condensed Semibold G1
+.SF NS Semi Condensed Semibold G2
+.SF NS Semi Condensed Semibold G3
+.SF NS Semi Condensed Semibold G4
+.SF NS Bold
+.SF NS Bold G1
+.SF NS Bold G2
+.SF NS Bold G3
+.SF NS Bold G4
+.SF NS Semi Expanded Bold
+.SF NS Semi Expanded Bold G1
+.SF NS Semi Expanded Bold G2
+.SF NS Semi Expanded Bold G3
+.SF NS Semi Expanded Bold G4
+.SF NS Semi Condensed Bold
+.SF NS Semi Condensed Bold G1
+.SF NS Semi Condensed Bold G2
+.SF NS Semi Condensed Bold G3
+.SF NS Semi Condensed Bold G4
+.SF NS Heavy
+.SF NS Heavy G1
+.SF NS Heavy G2
+.SF NS Heavy G3
+.SF NS Heavy G4
+.SF NS Semi Expanded Heavy
+.SF NS Semi Expanded Heavy G1
+.SF NS Semi Expanded Heavy G2
+.SF NS Semi Expanded Heavy G3
+.SF NS Semi Expanded Heavy G4
+.SF NS Semi Condensed Heavy
+.SF NS Semi Condensed Heavy G1
+.SF NS Semi Condensed Heavy G2
+.SF NS Semi Condensed Heavy G3
+.SF NS Semi Condensed Heavy G4
+.SF NS Black
+.SF NS Semi Expanded Black
+.SF NS Semi Condensed Black
+.SF NS Expanded Regular
+.SF NS Expanded Regular G1
+.SF NS Expanded Regular G2
+.SF NS Expanded Regular G3
+.SF NS Expanded Regular G4
+.SF NS Extra Expanded Regular
+.SF NS Extra Expanded Regular G1
+.SF NS Extra Expanded Regular G2
+.SF NS Extra Expanded Regular G3
+.SF NS Extra Expanded Regular G4
+.SF NS Expanded Medium
+.SF NS Expanded Medium G1
+.SF NS Expanded Medium G2
+.SF NS Expanded Medium G3
+.SF NS Expanded Medium G4
+.SF NS Extra Expanded Medium
+.SF NS Extra Expanded Medium G1
+.SF NS Extra Expanded Medium G2
+.SF NS Extra Expanded Medium G3
+.SF NS Extra Expanded Medium G4
+.SF NS Expanded Light
+.SF NS Expanded Light G1
+.SF NS Expanded Light G2
+.SF NS Expanded Light G3
+.SF NS Expanded Light G4
+.SF NS Extra Expanded Light
+.SF NS Extra Expanded Light G1
+.SF NS Extra Expanded Light G2
+.SF NS Extra Expanded Light G3
+.SF NS Extra Expanded Light G4
+.SF NS Expanded Thin
+.SF NS Expanded Thin G1
+.SF NS Expanded Thin G2
+.SF NS Expanded Thin G3
+.SF NS Expanded Thin G4
+.SF NS Extra Expanded Thin
+.SF NS Extra Expanded Thin G1
+.SF NS Extra Expanded Thin G2
+.SF NS Extra Expanded Thin G3
+.SF NS Extra Expanded Thin G4
+.SF NS Expanded Ultralight
+.SF NS Expanded Ultralight G1
+.SF NS Expanded Ultralight G2
+.SF NS Expanded Ultralight G3
+.SF NS Expanded Ultralight G4
+.SF NS Extra Expanded Ultralight
+.SF NS Extra Expanded Ultralight G1
+.SF NS Extra Expanded Ultralight G2
+.SF NS Extra Expanded Ultralight G3
+.SF NS Extra Expanded Ultralight G4
+.SF NS Expanded Semibold
+.SF NS Expanded Semibold G1
+.SF NS Expanded Semibold G2
+.SF NS Expanded Semibold G3
+.SF NS Expanded Semibold G4
+.SF NS Extra Expanded Semibold
+.SF NS Extra Expanded Semibold G1
+.SF NS Extra Expanded Semibold G2
+.SF NS Extra Expanded Semibold G3
+.SF NS Extra Expanded Semibold G4
+.SF NS Expanded Bold
+.SF NS Expanded Bold G1
+.SF NS Expanded Bold G2
+.SF NS Expanded Bold G3
+.SF NS Expanded Bold G4
+.SF NS Extra Expanded Bold
+.SF NS Extra Expanded Bold G1
+.SF NS Extra Expanded Bold G2
+.SF NS Extra Expanded Bold G3
+.SF NS Extra Expanded Bold G4
+.SF NS Expanded Heavy
+.SF NS Expanded Heavy G1
+.SF NS Expanded Heavy G2
+.SF NS Expanded Heavy G3
+.SF NS Expanded Heavy G4
+.SF NS Extra Expanded Heavy
+.SF NS Extra Expanded Heavy G1
+.SF NS Extra Expanded Heavy G2
+.SF NS Extra Expanded Heavy G3
+.SF NS Extra Expanded Heavy G4
+.SF NS Expanded Black
+.SF NS Extra Expanded Black
+.SF NS Condensed Regular
+.SF NS Condensed Regular G1
+.SF NS Condensed Regular G2
+.SF NS Condensed Regular G3
+.SF NS Condensed Regular G4
+.SF NS Compressed Regular
+.SF NS Compressed Regular G1
+.SF NS Compressed Regular G2
+.SF NS Compressed Regular G3
+.SF NS Compressed Regular G4
+.SF NS Extra Compressed Regular
+.SF NS Extra Compressed Regular G1
+.SF NS Extra Compressed Regular G2
+.SF NS Extra Compressed Regular G3
+.SF NS Extra Compressed Regular G4
+.SF NS Ultra Compressed Regular
+.SF NS Ultra Compressed Regular G1
+.SF NS Ultra Compressed Regular G2
+.SF NS Ultra Compressed Regular G3
+.SF NS Ultra Compressed Regular G4
+.SF NS Condensed Medium
+.SF NS Condensed Medium G1
+.SF NS Condensed Medium G2
+.SF NS Condensed Medium G3
+.SF NS Condensed Medium G4
+.SF NS Compressed Medium
+.SF NS Compressed Medium G1
+.SF NS Compressed Medium G2
+.SF NS Compressed Medium G3
+.SF NS Compressed Medium G4
+.SF NS Extra Compressed Medium
+.SF NS Extra Compressed Medium G1
+.SF NS Extra Compressed Medium G2
+.SF NS Extra Compressed Medium G3
+.SF NS Extra Compressed Medium G4
+.SF NS Ultra Compressed Medium
+.SF NS Ultra Compressed Medium G1
+.SF NS Ultra Compressed Medium G2
+.SF NS Ultra Compressed Medium G3
+.SF NS Ultra Compressed Medium G4
+.SF NS Condensed Light
+.SF NS Condensed Light G1
+.SF NS Condensed Light G2
+.SF NS Condensed Light G3
+.SF NS Condensed Light G4
+.SF NS Compressed Light
+.SF NS Compressed Light G1
+.SF NS Compressed Light G2
+.SF NS Compressed Light G3
+.SF NS Compressed Light G4
+.SF NS Extra Compressed Light
+.SF NS Extra Compressed Light G1
+.SF NS Extra Compressed Light G2
+.SF NS Extra Compressed Light G3
+.SF NS Extra Compressed Light G4
+.SF NS Ultra Compressed Light
+.SF NS Ultra Compressed Light G1
+.SF NS Ultra Compressed Light G2
+.SF NS Ultra Compressed Light G3
+.SF NS Ultra Compressed Light G4
+.SF NS Condensed Thin
+.SF NS Condensed Thin G1
+.SF NS Condensed Thin G2
+.SF NS Condensed Thin G3
+.SF NS Condensed Thin G4
+.SF NS Compressed Thin
+.SF NS Compressed Thin G1
+.SF NS Compressed Thin G2
+.SF NS Compressed Thin G3
+.SF NS Compressed Thin G4
+.SF NS Extra Compressed Thin
+.SF NS Extra Compressed Thin G1
+.SF NS Extra Compressed Thin G2
+.SF NS Extra Compressed Thin G3
+.SF NS Extra Compressed Thin G4
+.SF NS Ultra Compressed Thin
+.SF NS Ultra Compressed Thin G1
+.SF NS Ultra Compressed Thin G2
+.SF NS Ultra Compressed Thin G3
+.SF NS Ultra Compressed Thin G4
+.SF NS Condensed Ultralight
+.SF NS Condensed Ultralight G1
+.SF NS Condensed Ultralight G2
+.SF NS Condensed Ultralight G3
+.SF NS Condensed Ultralight G4
+.SF NS Compressed Ultralight
+.SF NS Compressed Ultralight G1
+.SF NS Compressed Ultralight G2
+.SF NS Compressed Ultralight G3
+.SF NS Compressed Ultralight G4
+.SF NS Extra Compressed Ultralight
+.SF NS Extra Compressed Ultralight G1
+.SF NS Extra Compressed Ultralight G2
+.SF NS Extra Compressed Ultralight G3
+.SF NS Extra Compressed Ultralight G4
+.SF NS Ultra Compressed Ultralight
+.SF NS Ultra Compressed Ultralight G1
+.SF NS Ultra Compressed Ultralight G2
+.SF NS Ultra Compressed Ultralight G3
+.SF NS Ultra Compressed Ultralight G4
+.SF NS Condensed Semibold
+.SF NS Condensed Semibold G1
+.SF NS Condensed Semibold G2
+.SF NS Condensed Semibold G3
+.SF NS Condensed Semibold G4
+.SF NS Compressed Semibold
+.SF NS Compressed Semibold G1
+.SF NS Compressed Semibold G2
+.SF NS Compressed Semibold G3
+.SF NS Compressed Semibold G4
+.SF NS Extra Compressed Semibold
+.SF NS Extra Compressed Semibold G1
+.SF NS Extra Compressed Semibold G2
+.SF NS Extra Compressed Semibold G3
+.SF NS Extra Compressed Semibold G4
+.SF NS Ultra Compressed Semibold
+.SF NS Ultra Compressed Semibold G1
+.SF NS Ultra Compressed Semibold G2
+.SF NS Ultra Compressed Semibold G3
+.SF NS Ultra Compressed Semibold G4
+.SF NS Condensed Bold
+.SF NS Condensed Bold G1
+.SF NS Condensed Bold G2
+.SF NS Condensed Bold G3
+.SF NS Condensed Bold G4
+.SF NS Compressed Bold
+.SF NS Compressed Bold G1
+.SF NS Compressed Bold G2
+.SF NS Compressed Bold G3
+.SF NS Compressed Bold G4
+.SF NS Extra Compressed Bold
+.SF NS Extra Compressed Bold G1
+.SF NS Extra Compressed Bold G2
+.SF NS Extra Compressed Bold G3
+.SF NS Extra Compressed Bold G4
+.SF NS Ultra Compressed Bold
+.SF NS Ultra Compressed Bold G1
+.SF NS Ultra Compressed Bold G2
+.SF NS Ultra Compressed Bold G3
+.SF NS Ultra Compressed Bold G4
+.SF NS Condensed Heavy
+.SF NS Condensed Heavy G1
+.SF NS Condensed Heavy G2
+.SF NS Condensed Heavy G3
+.SF NS Condensed Heavy G4
+.SF NS Compressed Heavy
+.SF NS Compressed Heavy G1
+.SF NS Compressed Heavy G2
+.SF NS Compressed Heavy G3
+.SF NS Compressed Heavy G4
+.SF NS Extra Compressed Heavy
+.SF NS Extra Compressed Heavy G1
+.SF NS Extra Compressed Heavy G2
+.SF NS Extra Compressed Heavy G3
+.SF NS Extra Compressed Heavy G4
+.SF NS Ultra Compressed Heavy
+.SF NS Ultra Compressed Heavy G1
+.SF NS Ultra Compressed Heavy G2
+.SF NS Ultra Compressed Heavy G3
+.SF NS Ultra Compressed Heavy G4
+.SF NS Condensed Black
+.SF NS Compressed Black
+.SF NS Extra Compressed Black
+.SF NS Ultra Compressed Black
+Iosevka NF Italic
+Bodoni 72 Oldstyle Bold
+Bodoni 72 Oldstyle Book
+Bodoni 72 Oldstyle Book Italic
+Webdings
+Herculanum
+Iosevka NFM Bold
+.SF NS Mono Light Regular
+.SF NS Mono Light Medium
+.SF NS Mono Light Light
+.SF NS Mono Light Semibold
+.SF NS Mono Light Bold
+.SF NS Mono Light Heavy
+JetBrainsMono NFM Medium
+JetBrainsMono NFP SemiBold Italic
+Rockwell Bold
+Rockwell
+Rockwell Italic
+Rockwell Bold Italic
+LG Smart UI SemiBold
+Sukhumvit Set Semi Bold
+Sukhumvit Set Bold
+Sukhumvit Set Thin
+Sukhumvit Set Medium
+Sukhumvit Set Text
+Sukhumvit Set Light
+Diwan Thuluth Regular
+JetBrainsMono NFP ExtraLight Italic
+Sinhala MN
+Sinhala MN Bold
+JetBrainsMonoNL NF Thin Italic
+PT Serif Caption Italic
+PT Serif Caption
+JetBrainsMonoNL NF SemiBold
+Bodoni Ornaments
+JetBrainsMono NFP ExtraLight
+Apple Color Emoji
+.Apple Color Emoji UI
+Iosevka NFP Medium Oblique
+JetBrainsMono NFM Light
+Iosevka NFP ExtraLight Oblique
+JetBrainsMono NFP Medium Italic
+Symbols Nerd Font Mono
+Savoye LET Plain:1.0
+Savoye LET Plain CC.:1.0
+Gurmukhi Sangam MN
+Gurmukhi Sangam MN Bold
+Iosevka NF SemiBold
+Iosevka NF Bold Oblique
+Hiragino Sans W7
+.Hiragino Kaku Gothic Interface W7
+Arial
+JetBrainsMono NF ExtraLight
+Devanagari Sangam MN Bold
+Devanagari Sangam MN
+JetBrainsMono NFP ExtraBold
+Iosevka NF SemiBold Oblique
+JetBrainsMono NFM ExtraLight Italic
+Arial Narrow Bold
+Trebuchet MS Bold Italic
+JetBrainsMonoNL NFM Thin
+MuktaMahee Regular
+MuktaMahee Medium
+MuktaMahee ExtraBold
+MuktaMahee ExtraLight
+MuktaMahee Bold
+MuktaMahee Light
+MuktaMahee SemiBold
+.SF Soft Numeric Regular
+.SF Soft Numeric Regular G1
+.SF Soft Numeric Regular G2
+.SF Soft Numeric Regular G3
+.SF Soft Numeric Regular G4
+.SF Soft Numeric Semi Expanded Regular
+.SF Soft Numeric Semi Expanded Regular G1
+.SF Soft Numeric Semi Expanded Regular G2
+.SF Soft Numeric Semi Expanded Regular G3
+.SF Soft Numeric Semi Expanded Regular G4
+.SF Soft Numeric Semi Condensed Regular
+.SF Soft Numeric Semi Condensed Regular G1
+.SF Soft Numeric Semi Condensed Regular G2
+.SF Soft Numeric Semi Condensed Regular G3
+.SF Soft Numeric Semi Condensed Regular G4
+.SF Soft Numeric Medium
+.SF Soft Numeric Medium G1
+.SF Soft Numeric Medium G2
+.SF Soft Numeric Medium G3
+.SF Soft Numeric Medium G4
+.SF Soft Numeric Semi Expanded Medium
+.SF Soft Numeric Semi Expanded Medium G1
+.SF Soft Numeric Semi Expanded Medium G2
+.SF Soft Numeric Semi Expanded Medium G3
+.SF Soft Numeric Semi Expanded Medium G4
+.SF Soft Numeric Semi Condensed Medium
+.SF Soft Numeric Semi Condensed Medium G1
+.SF Soft Numeric Semi Condensed Medium G2
+.SF Soft Numeric Semi Condensed Medium G3
+.SF Soft Numeric Semi Condensed Medium G4
+.SF Soft Numeric Light
+.SF Soft Numeric Light G1
+.SF Soft Numeric Light G2
+.SF Soft Numeric Light G3
+.SF Soft Numeric Light G4
+.SF Soft Numeric Semi Expanded Light
+.SF Soft Numeric Semi Expanded Light G1
+.SF Soft Numeric Semi Expanded Light G2
+.SF Soft Numeric Semi Expanded Light G3
+.SF Soft Numeric Semi Expanded Light G4
+.SF Soft Numeric Semi Condensed Light
+.SF Soft Numeric Semi Condensed Light G1
+.SF Soft Numeric Semi Condensed Light G2
+.SF Soft Numeric Semi Condensed Light G3
+.SF Soft Numeric Semi Condensed Light G4
+.SF Soft Numeric Thin
+.SF Soft Numeric Thin G1
+.SF Soft Numeric Thin G2
+.SF Soft Numeric Thin G3
+.SF Soft Numeric Thin G4
+.SF Soft Numeric Semi Expanded Thin
+.SF Soft Numeric Semi Expanded Thin G1
+.SF Soft Numeric Semi Expanded Thin G2
+.SF Soft Numeric Semi Expanded Thin G3
+.SF Soft Numeric Semi Expanded Thin G4
+.SF Soft Numeric Semi Condensed Thin
+.SF Soft Numeric Semi Condensed Thin G1
+.SF Soft Numeric Semi Condensed Thin G2
+.SF Soft Numeric Semi Condensed Thin G3
+.SF Soft Numeric Semi Condensed Thin G4
+.SF Soft Numeric Ultralight
+.SF Soft Numeric Ultralight G1
+.SF Soft Numeric Ultralight G2
+.SF Soft Numeric Ultralight G3
+.SF Soft Numeric Ultralight G4
+.SF Soft Numeric Semi Expanded Ultralight
+.SF Soft Numeric Semi Expanded Ultralight G1
+.SF Soft Numeric Semi Expanded Ultralight G2
+.SF Soft Numeric Semi Expanded Ultralight G3
+.SF Soft Numeric Semi Expanded Ultralight G4
+.SF Soft Numeric Semi Condensed Ultralight
+.SF Soft Numeric Semi Condensed Ultralight G1
+.SF Soft Numeric Semi Condensed Ultralight G2
+.SF Soft Numeric Semi Condensed Ultralight G3
+.SF Soft Numeric Semi Condensed Ultralight G4
+.SF Soft Numeric Semibold
+.SF Soft Numeric Semibold G1
+.SF Soft Numeric Semibold G2
+.SF Soft Numeric Semibold G3
+.SF Soft Numeric Semibold G4
+.SF Soft Numeric Semi Expanded Semibold
+.SF Soft Numeric Semi Expanded Semibold G1
+.SF Soft Numeric Semi Expanded Semibold G2
+.SF Soft Numeric Semi Expanded Semibold G3
+.SF Soft Numeric Semi Expanded Semibold G4
+.SF Soft Numeric Semi Condensed Semibold
+.SF Soft Numeric Semi Condensed Semibold G1
+.SF Soft Numeric Semi Condensed Semibold G2
+.SF Soft Numeric Semi Condensed Semibold G3
+.SF Soft Numeric Semi Condensed Semibold G4
+.SF Soft Numeric Bold
+.SF Soft Numeric Bold G1
+.SF Soft Numeric Bold G2
+.SF Soft Numeric Bold G3
+.SF Soft Numeric Bold G4
+.SF Soft Numeric Semi Expanded Bold
+.SF Soft Numeric Semi Expanded Bold G1
+.SF Soft Numeric Semi Expanded Bold G2
+.SF Soft Numeric Semi Expanded Bold G3
+.SF Soft Numeric Semi Expanded Bold G4
+.SF Soft Numeric Semi Condensed Bold
+.SF Soft Numeric Semi Condensed Bold G1
+.SF Soft Numeric Semi Condensed Bold G2
+.SF Soft Numeric Semi Condensed Bold G3
+.SF Soft Numeric Semi Condensed Bold G4
+.SF Soft Numeric Heavy
+.SF Soft Numeric Heavy G1
+.SF Soft Numeric Heavy G2
+.SF Soft Numeric Heavy G3
+.SF Soft Numeric Heavy G4
+.SF Soft Numeric Semi Expanded Heavy
+.SF Soft Numeric Semi Expanded Heavy G1
+.SF Soft Numeric Semi Expanded Heavy G2
+.SF Soft Numeric Semi Expanded Heavy G3
+.SF Soft Numeric Semi Expanded Heavy G4
+.SF Soft Numeric Semi Condensed Heavy
+.SF Soft Numeric Semi Condensed Heavy G1
+.SF Soft Numeric Semi Condensed Heavy G2
+.SF Soft Numeric Semi Condensed Heavy G3
+.SF Soft Numeric Semi Condensed Heavy G4
+.SF Soft Numeric Black
+.SF Soft Numeric Semi Expanded Black
+.SF Soft Numeric Semi Condensed Black
+.SF Soft Numeric Expanded Regular
+.SF Soft Numeric Expanded Regular G1
+.SF Soft Numeric Expanded Regular G2
+.SF Soft Numeric Expanded Regular G3
+.SF Soft Numeric Expanded Regular G4
+.SF Soft Numeric Extra Expanded Regular
+.SF Soft Numeric Extra Expanded Regular G1
+.SF Soft Numeric Extra Expanded Regular G2
+.SF Soft Numeric Extra Expanded Regular G3
+.SF Soft Numeric Extra Expanded Regular G4
+.SF Soft Numeric Expanded Medium
+.SF Soft Numeric Expanded Medium G1
+.SF Soft Numeric Expanded Medium G2
+.SF Soft Numeric Expanded Medium G3
+.SF Soft Numeric Expanded Medium G4
+.SF Soft Numeric Extra Expanded Medium
+.SF Soft Numeric Extra Expanded Medium G1
+.SF Soft Numeric Extra Expanded Medium G2
+.SF Soft Numeric Extra Expanded Medium G3
+.SF Soft Numeric Extra Expanded Medium G4
+.SF Soft Numeric Expanded Light
+.SF Soft Numeric Expanded Light G1
+.SF Soft Numeric Expanded Light G2
+.SF Soft Numeric Expanded Light G3
+.SF Soft Numeric Expanded Light G4
+.SF Soft Numeric Extra Expanded Light
+.SF Soft Numeric Extra Expanded Light G1
+.SF Soft Numeric Extra Expanded Light G2
+.SF Soft Numeric Extra Expanded Light G3
+.SF Soft Numeric Extra Expanded Light G4
+.SF Soft Numeric Expanded Thin
+.SF Soft Numeric Expanded Thin G1
+.SF Soft Numeric Expanded Thin G2
+.SF Soft Numeric Expanded Thin G3
+.SF Soft Numeric Expanded Thin G4
+.SF Soft Numeric Extra Expanded Thin
+.SF Soft Numeric Extra Expanded Thin G1
+.SF Soft Numeric Extra Expanded Thin G2
+.SF Soft Numeric Extra Expanded Thin G3
+.SF Soft Numeric Extra Expanded Thin G4
+.SF Soft Numeric Expanded Ultralight
+.SF Soft Numeric Expanded Ultralight G1
+.SF Soft Numeric Expanded Ultralight G2
+.SF Soft Numeric Expanded Ultralight G3
+.SF Soft Numeric Expanded Ultralight G4
+.SF Soft Numeric Extra Expanded Ultralight
+.SF Soft Numeric Extra Expanded Ultralight G1
+.SF Soft Numeric Extra Expanded Ultralight G2
+.SF Soft Numeric Extra Expanded Ultralight G3
+.SF Soft Numeric Extra Expanded Ultralight G4
+.SF Soft Numeric Expanded Semibold
+.SF Soft Numeric Expanded Semibold G1
+.SF Soft Numeric Expanded Semibold G2
+.SF Soft Numeric Expanded Semibold G3
+.SF Soft Numeric Expanded Semibold G4
+.SF Soft Numeric Extra Expanded Semibold
+.SF Soft Numeric Extra Expanded Semibold G1
+.SF Soft Numeric Extra Expanded Semibold G2
+.SF Soft Numeric Extra Expanded Semibold G3
+.SF Soft Numeric Extra Expanded Semibold G4
+.SF Soft Numeric Expanded Bold
+.SF Soft Numeric Expanded Bold G1
+.SF Soft Numeric Expanded Bold G2
+.SF Soft Numeric Expanded Bold G3
+.SF Soft Numeric Expanded Bold G4
+.SF Soft Numeric Extra Expanded Bold
+.SF Soft Numeric Extra Expanded Bold G1
+.SF Soft Numeric Extra Expanded Bold G2
+.SF Soft Numeric Extra Expanded Bold G3
+.SF Soft Numeric Extra Expanded Bold G4
+.SF Soft Numeric Expanded Heavy
+.SF Soft Numeric Expanded Heavy G1
+.SF Soft Numeric Expanded Heavy G2
+.SF Soft Numeric Expanded Heavy G3
+.SF Soft Numeric Expanded Heavy G4
+.SF Soft Numeric Extra Expanded Heavy
+.SF Soft Numeric Extra Expanded Heavy G1
+.SF Soft Numeric Extra Expanded Heavy G2
+.SF Soft Numeric Extra Expanded Heavy G3
+.SF Soft Numeric Extra Expanded Heavy G4
+.SF Soft Numeric Expanded Black
+.SF Soft Numeric Extra Expanded Black
+.SF Soft Numeric Condensed Regular
+.SF Soft Numeric Condensed Regular G1
+.SF Soft Numeric Condensed Regular G2
+.SF Soft Numeric Condensed Regular G3
+.SF Soft Numeric Condensed Regular G4
+.SF Soft Numeric Compressed Regular
+.SF Soft Numeric Compressed Regular G1
+.SF Soft Numeric Compressed Regular G2
+.SF Soft Numeric Compressed Regular G3
+.SF Soft Numeric Compressed Regular G4
+.SF Soft Numeric Extra Compressed Regular
+.SF Soft Numeric Extra Compressed Regular G1
+.SF Soft Numeric Extra Compressed Regular G2
+.SF Soft Numeric Extra Compressed Regular G3
+.SF Soft Numeric Extra Compressed Regular G4
+.SF Soft Numeric Ultra Compressed Regular
+.SF Soft Numeric Ultra Compressed Regular G1
+.SF Soft Numeric Ultra Compressed Regular G2
+.SF Soft Numeric Ultra Compressed Regular G3
+.SF Soft Numeric Ultra Compressed Regular G4
+.SF Soft Numeric Condensed Medium
+.SF Soft Numeric Condensed Medium G1
+.SF Soft Numeric Condensed Medium G2
+.SF Soft Numeric Condensed Medium G3
+.SF Soft Numeric Condensed Medium G4
+.SF Soft Numeric Compressed Medium
+.SF Soft Numeric Compressed Medium G1
+.SF Soft Numeric Compressed Medium G2
+.SF Soft Numeric Compressed Medium G3
+.SF Soft Numeric Compressed Medium G4
+.SF Soft Numeric Extra Compressed Medium
+.SF Soft Numeric Extra Compressed Medium G1
+.SF Soft Numeric Extra Compressed Medium G2
+.SF Soft Numeric Extra Compressed Medium G3
+.SF Soft Numeric Extra Compressed Medium G4
+.SF Soft Numeric Ultra Compressed Medium
+.SF Soft Numeric Ultra Compressed Medium G1
+.SF Soft Numeric Ultra Compressed Medium G2
+.SF Soft Numeric Ultra Compressed Medium G3
+.SF Soft Numeric Ultra Compressed Medium G4
+.SF Soft Numeric Condensed Light
+.SF Soft Numeric Condensed Light G1
+.SF Soft Numeric Condensed Light G2
+.SF Soft Numeric Condensed Light G3
+.SF Soft Numeric Condensed Light G4
+.SF Soft Numeric Compressed Light
+.SF Soft Numeric Compressed Light G1
+.SF Soft Numeric Compressed Light G2
+.SF Soft Numeric Compressed Light G3
+.SF Soft Numeric Compressed Light G4
+.SF Soft Numeric Extra Compressed Light
+.SF Soft Numeric Extra Compressed Light G1
+.SF Soft Numeric Extra Compressed Light G2
+.SF Soft Numeric Extra Compressed Light G3
+.SF Soft Numeric Extra Compressed Light G4
+.SF Soft Numeric Ultra Compressed Light
+.SF Soft Numeric Ultra Compressed Light G1
+.SF Soft Numeric Ultra Compressed Light G2
+.SF Soft Numeric Ultra Compressed Light G3
+.SF Soft Numeric Ultra Compressed Light G4
+.SF Soft Numeric Condensed Thin
+.SF Soft Numeric Condensed Thin G1
+.SF Soft Numeric Condensed Thin G2
+.SF Soft Numeric Condensed Thin G3
+.SF Soft Numeric Condensed Thin G4
+.SF Soft Numeric Compressed Thin
+.SF Soft Numeric Compressed Thin G1
+.SF Soft Numeric Compressed Thin G2
+.SF Soft Numeric Compressed Thin G3
+.SF Soft Numeric Compressed Thin G4
+.SF Soft Numeric Extra Compressed Thin
+.SF Soft Numeric Extra Compressed Thin G1
+.SF Soft Numeric Extra Compressed Thin G2
+.SF Soft Numeric Extra Compressed Thin G3
+.SF Soft Numeric Extra Compressed Thin G4
+.SF Soft Numeric Ultra Compressed Thin
+.SF Soft Numeric Ultra Compressed Thin G1
+.SF Soft Numeric Ultra Compressed Thin G2
+.SF Soft Numeric Ultra Compressed Thin G3
+.SF Soft Numeric Ultra Compressed Thin G4
+.SF Soft Numeric Condensed Ultralight
+.SF Soft Numeric Condensed Ultralight G1
+.SF Soft Numeric Condensed Ultralight G2
+.SF Soft Numeric Condensed Ultralight G3
+.SF Soft Numeric Condensed Ultralight G4
+.SF Soft Numeric Compressed Ultralight
+.SF Soft Numeric Compressed Ultralight G1
+.SF Soft Numeric Compressed Ultralight G2
+.SF Soft Numeric Compressed Ultralight G3
+.SF Soft Numeric Compressed Ultralight G4
+.SF Soft Numeric Extra Compressed Ultralight
+.SF Soft Numeric Extra Compressed Ultralight G1
+.SF Soft Numeric Extra Compressed Ultralight G2
+.SF Soft Numeric Extra Compressed Ultralight G3
+.SF Soft Numeric Extra Compressed Ultralight G4
+.SF Soft Numeric Ultra Compressed Ultralight
+.SF Soft Numeric Ultra Compressed Ultralight G1
+.SF Soft Numeric Ultra Compressed Ultralight G2
+.SF Soft Numeric Ultra Compressed Ultralight G3
+.SF Soft Numeric Ultra Compressed Ultralight G4
+.SF Soft Numeric Condensed Semibold
+.SF Soft Numeric Condensed Semibold G1
+.SF Soft Numeric Condensed Semibold G2
+.SF Soft Numeric Condensed Semibold G3
+.SF Soft Numeric Condensed Semibold G4
+.SF Soft Numeric Compressed Semibold
+.SF Soft Numeric Compressed Semibold G1
+.SF Soft Numeric Compressed Semibold G2
+.SF Soft Numeric Compressed Semibold G3
+.SF Soft Numeric Compressed Semibold G4
+.SF Soft Numeric Extra Compressed Semibold
+.SF Soft Numeric Extra Compressed Semibold G1
+.SF Soft Numeric Extra Compressed Semibold G2
+.SF Soft Numeric Extra Compressed Semibold G3
+.SF Soft Numeric Extra Compressed Semibold G4
+.SF Soft Numeric Ultra Compressed Semibold
+.SF Soft Numeric Ultra Compressed Semibold G1
+.SF Soft Numeric Ultra Compressed Semibold G2
+.SF Soft Numeric Ultra Compressed Semibold G3
+.SF Soft Numeric Ultra Compressed Semibold G4
+.SF Soft Numeric Condensed Bold
+.SF Soft Numeric Condensed Bold G1
+.SF Soft Numeric Condensed Bold G2
+.SF Soft Numeric Condensed Bold G3
+.SF Soft Numeric Condensed Bold G4
+.SF Soft Numeric Compressed Bold
+.SF Soft Numeric Compressed Bold G1
+.SF Soft Numeric Compressed Bold G2
+.SF Soft Numeric Compressed Bold G3
+.SF Soft Numeric Compressed Bold G4
+.SF Soft Numeric Extra Compressed Bold
+.SF Soft Numeric Extra Compressed Bold G1
+.SF Soft Numeric Extra Compressed Bold G2
+.SF Soft Numeric Extra Compressed Bold G3
+.SF Soft Numeric Extra Compressed Bold G4
+.SF Soft Numeric Ultra Compressed Bold
+.SF Soft Numeric Ultra Compressed Bold G1
+.SF Soft Numeric Ultra Compressed Bold G2
+.SF Soft Numeric Ultra Compressed Bold G3
+.SF Soft Numeric Ultra Compressed Bold G4
+.SF Soft Numeric Condensed Heavy
+.SF Soft Numeric Condensed Heavy G1
+.SF Soft Numeric Condensed Heavy G2
+.SF Soft Numeric Condensed Heavy G3
+.SF Soft Numeric Condensed Heavy G4
+.SF Soft Numeric Compressed Heavy
+.SF Soft Numeric Compressed Heavy G1
+.SF Soft Numeric Compressed Heavy G2
+.SF Soft Numeric Compressed Heavy G3
+.SF Soft Numeric Compressed Heavy G4
+.SF Soft Numeric Extra Compressed Heavy
+.SF Soft Numeric Extra Compressed Heavy G1
+.SF Soft Numeric Extra Compressed Heavy G2
+.SF Soft Numeric Extra Compressed Heavy G3
+.SF Soft Numeric Extra Compressed Heavy G4
+.SF Soft Numeric Ultra Compressed Heavy
+.SF Soft Numeric Ultra Compressed Heavy G1
+.SF Soft Numeric Ultra Compressed Heavy G2
+.SF Soft Numeric Ultra Compressed Heavy G3
+.SF Soft Numeric Ultra Compressed Heavy G4
+.SF Soft Numeric Condensed Black
+.SF Soft Numeric Compressed Black
+.SF Soft Numeric Extra Compressed Black
+.SF Soft Numeric Ultra Compressed Black
+JetBrainsMonoNL NFP Regular
+Iosevka NFM ExtraLight Oblique
+DIN Condensed Bold
+Sinhala Sangam MN Bold
+Sinhala Sangam MN
+SignPainter-HouseScript Semibold
+SignPainter-HouseScript
+JetBrains Mono NL Light Italic
+.SF Arabic Rounded Regular
+.SF Arabic Rounded Medium
+.SF Arabic Rounded Light
+.SF Arabic Rounded Thin
+.SF Arabic Rounded Ultralight
+.SF Arabic Rounded Semibold
+.SF Arabic Rounded Bold
+.SF Arabic Rounded Heavy
+.SF Arabic Rounded Black
+JetBrainsMono NFM Light Italic
+Comic Sans MS
+Hiragino Sans W0
+.Hiragino Kaku Gothic Interface W0
+JetBrainsMono NFP Bold
+Trebuchet MS
+Bodoni 72 Bold
+Bodoni 72 Book Italic
+Bodoni 72 Book
+Iosevka NFM Thin Italic
+JetBrainsMonoNL NFM Light Italic
+Kailasa Regular
+Kailasa Bold
+JetBrains Mono NL Medium Italic
+Monaco
+Iosevka NFM SemiBold Oblique
+Iosevka NFP ExtraLight
+Baghdad Regular
+.Baghdad PUA
+Iosevka NFP Italic
+PT Serif
+PT Serif Bold Italic
+PT Serif Italic
+PT Serif Bold
+Raanana Bold
+Raanana
+American Typewriter Condensed Light
+American Typewriter
+American Typewriter Semibold
+American Typewriter Bold
+American Typewriter Light
+American Typewriter Condensed Bold
+American Typewriter Condensed
+Wingdings 2
+Iosevka NF ExtraBold Italic
+Iosevka NFP ExtraBold
+Verdana
+.Helvetica LT MM
+JetBrainsMono NFM Thin
+Times New Roman Bold
+JetBrainsMono NFP SemiBold
+Snell Roundhand
+Snell Roundhand Black
+Snell Roundhand Bold
+JetBrainsMonoNL NFM Thin Italic
+Al Tarikh Regular
+.Al Tarikh PUA
+Krungthep
+Hoefler Text Black
+Hoefler Text
+Hoefler Text Black Italic
+Hoefler Text Italic
+JetBrainsMono NF Medium
+Geneva
+JetBrainsMono NFM Bold
+Silom
+.SF Hebrew Rounded Regular
+.SF Hebrew Rounded Medium
+.SF Hebrew Rounded Light
+.SF Hebrew Rounded Thin
+.SF Hebrew Rounded Ultralight
+.SF Hebrew Rounded Semibold
+.SF Hebrew Rounded Bold
+.SF Hebrew Rounded Heavy
+.SF Hebrew Rounded Black
+JetBrainsMonoNL NFM Bold Italic
+Iosevka NFM Oblique
+Apple Braille Pinpoint 6 Dot
+Courier New
+Avenir Black Oblique
+Avenir Heavy
+Avenir Oblique
+Avenir Book
+Avenir Light
+Avenir Medium Oblique
+Avenir Heavy Oblique
+Avenir Book Oblique
+Avenir Light Oblique
+Avenir Black
+Avenir Roman
+Avenir Medium
+JetBrainsMono NFP Light
+Apple Braille Pinpoint 8 Dot
+Lao Sangam MN
+JetBrainsMono NF Bold Italic
+Verdana Italic
+Telugu Sangam MN Bold
+Telugu Sangam MN
+JetBrainsMonoNL NFM Italic
+Hiragino Sans W8
+.Hiragino Kaku Gothic Interface W8
+Bangla Sangam MN
+Bangla Sangam MN Bold
+JetBrainsMono NFM Regular
+Myanmar Sangam MN Bold
+Myanmar Sangam MN
+JetBrains Mono ExtraBold Italic
+Apple Braille
+Damascus Regular
+Damascus Bold
+Damascus Semi Bold
+Damascus Light
+Damascus Medium
+.Damascus PUA
+.Damascus PUA Medium
+.Damascus PUA Light
+.Damascus PUA Semi Bold
+.Damascus PUA Bold
+Arial Narrow Bold Italic
+Museo Sans 500
+Courier New Bold Italic
+JetBrains Mono Thin Italic
+Iosevka NF Thin Oblique
+Oriya MN Bold
+Oriya MN
+Hack Nerd Font Propo Bold Italic
+Menlo Regular
+Menlo Italic
+Menlo Bold Italic
+Menlo Bold
+Iosevka NFM Light
+JetBrains Mono NL SemiBold
+Party LET Plain
+Iosevka NF ExtraLight Oblique
+JetBrainsMono NF Medium Italic
+Cochin Italic
+Cochin Bold Italic
+Cochin
+Cochin Bold
+DIN Alternate Bold
+JetBrainsMono NFM Medium Italic
+Hiragino Sans W1
+.Hiragino Kaku Gothic Interface W1
+Iosevka NF ExtraLight
+Courier New Bold
+Iosevka NF Thin Italic
+Iosevka NFP Oblique
+Apple Braille Outline 6 Dot
+JetBrainsMono NFM ExtraLight
+Palatino Italic
+Palatino Bold
+Palatino Bold Italic
+Palatino
+Hoefler Text Ornaments
+LG Smart UI Regular
+Arial Unicode MS
+Grantha Sangam MN Regular
+Tamil Sangam MN
+Tamil Sangam MN Bold
+Grantha Sangam MN Bold
+LG Smart_0521_HS98 Bold
+Iosevka NFP Medium Italic
+Iosevka NF Oblique
+JetBrainsMono NF ExtraBold Italic
+New Peninim MT Bold Inclined
+New Peninim MT
+New Peninim MT Inclined
+New Peninim MT Bold
+Noteworthy Light
+Noteworthy Bold
+Iosevka NF Light
+MesloLGS NF Bold Italic
+Farisi Regular
+Oriya Sangam MN
+Oriya Sangam MN Bold
+Verdana Bold Italic
+.ThonburiUI Regular Regular
+.ThonburiUI Regular Light
+.ThonburiUI Regular Bold
+.ThonburiUIWatch Regular Regular
+.ThonburiUIWatch Regular Light
+.ThonburiUIWatch Regular Bold
+JetBrainsMonoNL NFM Medium Italic
+Iosevka NFP Bold
+Noto Nastaliq Urdu
+Noto Nastaliq Urdu Bold
+.Noto Nastaliq Urdu UI
+.Noto Nastaliq Urdu UI Bold
+LG Display11_Light
+JetBrainsMonoNL NFP SemiBold
+Iosevka NF ExtraLight Italic
+GB18030 Bitmap
+Telugu MN
+Telugu MN Bold
+JetBrainsMonoNL NFM ExtraBold
+JetBrains Mono Light
+Corsiva Hebrew
+Corsiva Hebrew Bold
+Gill Sans SemiBold
+Gill Sans SemiBold Italic
+Gill Sans Bold Italic
+Gill Sans Bold
+Gill Sans Italic
+Gill Sans UltraBold
+Gill Sans
+Gill Sans Light
+Gill Sans Light Italic
+Iosevka NFP Bold Oblique
+Noto Sans Oriya Bold
+Noto Sans Oriya
+Iosevka NFM Heavy Italic
+JetBrains Mono SemiBold Italic
+Iosevka NFM ExtraBold Italic
+JetBrainsMono NFM ExtraBold Italic
+Heiti TC Medium
+Heiti SC Medium
+InaiMathi
+InaiMathi Bold
+JetBrainsMonoNL NF ExtraLight
+Iosevka NF
+Iosevka NF Bold
+JetBrains Mono NL Bold
+JetBrainsMono NFM SemiBold
+Hiragino Sans W9
+.Hiragino Kaku Gothic Interface W9
+JetBrains Mono ExtraLight Italic
+JetBrains Mono NL Thin
+Iosevka NF Light Italic
+Plantagenet Cherokee
+Apple Braille Outline 8 Dot
+Marker Felt Wide
+Marker Felt Thin
+Sathu
+JetBrains Mono Regular
+Georgia Italic
+Brush Script MT Italic
+JetBrains Mono NL Thin Italic
+PingFang TC Light
+PingFang HK Semibold
+PingFang TC Semibold
+PingFang SC Light
+PingFang SC Medium
+PingFang HK Thin
+PingFang SC Ultralight
+PingFang SC Semibold
+PingFang SC Thin
+PingFang HK Light
+PingFang TC Regular
+PingFang SC Regular
+PingFang TC Thin
+PingFang HK Regular
+PingFang TC Medium
+PingFang HK Ultralight
+PingFang TC Ultralight
+PingFang HK Medium
+.PingFang HK Regular
+.PingFang HK Medium
+.PingFang HK Light
+.PingFang HK Thin
+.PingFang HK Ultralight
+.PingFang HK Semibold
+.PingFang SC Regular
+.PingFang SC Medium
+.PingFang SC Light
+.PingFang SC Thin
+.PingFang SC Ultralight
+.PingFang SC Semibold
+.PingFang TC Regular
+.PingFang TC Medium
+.PingFang TC Light
+.PingFang TC Thin
+.PingFang TC Ultralight
+.PingFang TC Semibold
+Songti TC Bold
+Songti SC Bold
+STSong
+Songti SC Black
+Songti SC Regular
+Songti TC Regular
+Songti SC Light
+Songti TC Light
+JetBrainsMonoNL NF SemiBold Italic
+JetBrainsMono NF SemiBold Italic
+JetBrainsMonoNL NF Italic
+Diwan Kufi Regular
+.Diwan Kufi PUA
+.SF Compact Regular
+.SF Compact Regular G1
+.SF Compact Regular G2
+.SF Compact Regular G3
+.SF Compact Regular G4
+.SF Compact Medium
+.SF Compact Medium G1
+.SF Compact Medium G2
+.SF Compact Medium G3
+.SF Compact Medium G4
+.SF Compact Light
+.SF Compact Light G1
+.SF Compact Light G2
+.SF Compact Light G3
+.SF Compact Light G4
+.SF Compact Thin
+.SF Compact Thin G1
+.SF Compact Thin G2
+.SF Compact Thin G3
+.SF Compact Thin G4
+.SF Compact Ultralight
+.SF Compact Ultralight G1
+.SF Compact Ultralight G2
+.SF Compact Ultralight G3
+.SF Compact Ultralight G4
+.SF Compact Semibold
+.SF Compact Semibold G1
+.SF Compact Semibold G2
+.SF Compact Semibold G3
+.SF Compact Semibold G4
+.SF Compact Bold
+.SF Compact Bold G1
+.SF Compact Bold G2
+.SF Compact Bold G3
+.SF Compact Bold G4
+.SF Compact Heavy
+.SF Compact Heavy G1
+.SF Compact Heavy G2
+.SF Compact Heavy G3
+.SF Compact Heavy G4
+.SF Compact Black
+Didot Italic
+Didot
+Didot Bold
+Malayalam MN
+Malayalam MN Bold
+Hiragino Sans W2
+.Hiragino Kaku Gothic Interface W2
+STIX Two Text Italic Medium Italic
+STIX Two Text Italic Italic
+STIX Two Text Italic Bold Italic
+STIX Two Text Italic SemiBold Italic
+Iosevka NFM ExtraLight
+LG Smart_H SemiBold
+.SF Georgian Regular
+.SF Georgian Medium
+.SF Georgian Light
+.SF Georgian Thin
+.SF Georgian Ultralight
+.SF Georgian Semibold
+.SF Georgian Bold
+.SF Georgian Heavy
+.SF Georgian Black
+Kannada MN
+Kannada MN Bold
+Farah Regular
+.Farah PUA
+Iosevka NFM Light Oblique
+Iosevka NF Heavy Oblique
+JetBrainsMono NFM ExtraBold
+JetBrains Mono Thin
+Optima Regular
+Optima Bold
+Optima Bold Italic
+Optima Italic
+Optima ExtraBlack
+Galvji Oblique
+Galvji Bold Oblique
+Galvji Bold
+Galvji
+Gujarati Sangam MN Bold
+Gujarati Sangam MN
+Iosevka NFP Thin
+JetBrainsMonoNL NFP ExtraLight Italic
+KufiStandardGK Regular
+.KufiStandardGK PUA
+JetBrainsMono NF Bold
+STIX Two Math Regular
+JetBrains Mono NL Light
+Arial Bold
+JetBrainsMono NFP Medium
+JetBrainsMonoNL NFP Light Italic
+JetBrainsMonoNL NFM Medium
+Ayuthaya
+Iosevka NFM Heavy
+JetBrainsMonoNL NFP Bold Italic
+JetBrainsMonoNL NFM Light

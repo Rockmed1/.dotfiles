@@ -49,7 +49,7 @@ brew "sevenzip"                 # File archiver with high compression ratio
 brew "screenresolution"         # Get or set screen resolution
 brew "mas"                      # Mac App Store command-line interface
 brew "stow"                     # Symlink tree farm
-
+brew "powerlevel10k"            # Theme for zsh
 
 # Media and Graphics Tools
 # ------------------------------------------------------
