@@ -51,6 +51,7 @@ brew "mas"                      # Mac App Store command-line interface
 brew "stow"                     # Symlink tree farm
 brew "powerlevel10k"            # Theme for zsh
 
+
 # Media and Graphics Tools
 # ------------------------------------------------------
 brew "ffmpeg"                   # Play, record, convert, and stream audio and video
@@ -216,3 +217,5 @@ cask "protonvpn"                # VPN client focusing on security
 cask "pycharm-ce"               # IDE for Python programming - Community Edition
 cask "raycast"                  # Control your tools with a few keystrokes
 cask "rectangle"                # Window management
+cask "font-meslo-for-powerlevel10k" # Meslo Nerd Font for Powerlevel10k
+cask "font-jetbrains-mono"      # Jetbrains Mono

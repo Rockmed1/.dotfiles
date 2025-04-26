@@ -40,6 +40,7 @@ brew "powerlevel10k"            # Theme for zsh
 
 
 
+
 # Shell Enhancements
 # ------------------------------------------------------
 brew "powerlevel10k"            # Zsh theme with many features
@@ -65,7 +66,8 @@ cask "protonvpn"                # VPN client focusing on security
 cask "pycharm-ce"               # IDE for Python programming - Community Edition
 cask "raycast"                  # Control your tools with a few keystrokes
 cask "rectangle"                # Window management
-
+cask "font-meslo-for-powerlevel10k" # Meslo Nerd Font for Powerlevel10k
+cask "font-jetbrains-mono"      # Jetbrains Mono
 
 # To add or remove packages:
 # 1. Uncomment lines below to install, or comment out to avoid installing

@@ -1,11 +1,7 @@
 #!/bin/bash
 
 # FONT_DIR="./fonts"       # Folder for local .ttf/.otf files
-FONT_LIST="$1" # List of font names
-    if [ ! -d "$FONT_LIST" ]; then
-        print_error "Font list file does not exist: $BACKUP_DIR"
-        exit 1
-    fi
+
 # FONT_LIST="./font_list.txt"  # List of font names
 BREW_FONT_TAP="homebrew/cask-fonts"
 
@@ -21,6 +17,12 @@ print_success() {
 print_error() {
     echo -e "\033[1;31m[ERROR]\033[0m $1"
 }
+
+FONT_LIST="$1" # List of font names
+    if [ ! -f "$FONT_LIST" ]; then
+        print_error "Font list file does not exist: $BACKUP_DIR"
+        exit 1
+    fi
 
 # Ensure brew font tap is added
 brew tap "$BREW_FONT_TAP" >/dev/null 2>&1

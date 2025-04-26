@@ -243,11 +243,11 @@ else
     fi
 fi
 
-# fonts
-if [ -f "$BACKUP_DIR/fonts/font_list.txt" ]; then
-        print_subheading "Restoring fonts..."
-        $BACKUP_DIR/fonts/restore_font.sh $BACKUP_DIR/fonts/font_list.txt
-    fi
+# # fonts
+# if [ -f "$BACKUP_DIR/fonts/font_list.txt" ]; then
+#         print_subheading "Restoring fonts..."
+#         $BACKUP_DIR/fonts/restore_font.sh $BACKUP_DIR/fonts/font_list.txt
+#     fi
 
 # Restore Mac App Store applications
 print_heading "Restoring Mac App Store applications"
