@@ -76,7 +76,7 @@ while IFS= read -r font_name; do
             # else
                 # 3. Try downloading from Google Fonts
                 install_font_from_google "$font_name"
-            fi
+            # fi
         fi
     fi
 done < "$FONT_LIST"
