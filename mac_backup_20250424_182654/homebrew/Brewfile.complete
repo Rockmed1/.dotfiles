@@ -7,11 +7,6 @@
 # Usage: brew bundle install --file=Brewfile.complete
 # ======================================================
 
-# Taps - Package repositories
-# ------------------------------------------------------
-tap "homebrew/bundle"
-tap "homebrew/core"
-tap "homebrew/cask"
 
 # Programming Languages and Development Tools
 # ------------------------------------------------------
@@ -53,6 +48,7 @@ brew "yazi"                     # Terminal file manager
 brew "sevenzip"                 # File archiver with high compression ratio
 brew "screenresolution"         # Get or set screen resolution
 brew "mas"                      # Mac App Store command-line interface
+brew "stow"                     # Symlink tree farm
 
 
 # Media and Graphics Tools

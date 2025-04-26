@@ -9,11 +9,7 @@
 #   brew bundle install --file=Brewfile.essential
 # ======================================================
 
-# Taps (repositories)
-# ------------------------------------------------------
-tap "homebrew/bundle"
-tap "homebrew/core"
-tap "homebrew/cask"
+
 
 # Development Tools
 # ------------------------------------------------------
@@ -39,6 +35,7 @@ brew "tree"                     # Display directories as trees
 brew "zsh-autosuggestions"      # Fish-like autosuggestions for zsh
 brew "neofetch"                 # Fast, highly customizable system info script
 brew "mas"                      # Mac App Store command-line interface
+brew "stow"                     # Symlink tree farm
 
 
 # Shell Enhancements

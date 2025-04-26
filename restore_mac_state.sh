@@ -238,6 +238,14 @@ else
     fi
 fi
 
+# Install oh-my-zsh 
+
+print_heading "Installing oh-my-zsh"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+print_success "oh-my-zsh has been installed"
+
+
 # Restore Mac App Store applications
 print_heading "Restoring Mac App Store applications"
 
