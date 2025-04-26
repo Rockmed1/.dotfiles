@@ -1,14 +1,8 @@
 \.git
 misc
-
 ^id_ed
-
 .DS_Store
-
 .nvimlog
-
-^restore_
-
-^fonts
-
-^mac_backup
+.*/restore.*
+.*/fonts.*
+.*/mac_backup.*

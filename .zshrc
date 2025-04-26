@@ -84,7 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git  zsh-autosuggestions  web-search)
 
 source $ZSH/oh-my-zsh.sh
-
+# source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # User configuration
 # rvm use 1.9.3 --default
 
