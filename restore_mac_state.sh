@@ -622,7 +622,19 @@ fi
 #     print_error "No dotfiles directory found in the backup."
 # fi
 
-stow "~/.dotfiles" 
+# Backup: restore dotfiles with stow
+
+DOTFILES_DIR="$HOME/.dotfiles"
+
+if [ -d "$DOTFILES_DIR" ]; then
+  cd "$DOTFILES_DIR" || exit 1
+  stow */        # stow everything inside .dotfiles
+else
+  echo "Dotfiles directory not found at $DOTFILES_DIR"
+  exit 1
+fi
+
+
 source "~/.zshrc" 
 
 
