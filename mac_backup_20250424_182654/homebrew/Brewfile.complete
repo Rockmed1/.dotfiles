@@ -50,6 +50,8 @@ brew "screenresolution"         # Get or set screen resolution
 brew "mas"                      # Mac App Store command-line interface
 brew "stow"                     # Symlink tree farm
 brew "powerlevel10k"            # Theme for zsh
+brew "zsh-syntax-highlighting"  # Syntax highlighting zsh
+brew "ruby"                     # object-oriented scripting language
 
 
 # Media and Graphics Tools

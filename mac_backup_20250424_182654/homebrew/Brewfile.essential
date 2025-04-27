@@ -37,8 +37,8 @@ brew "neofetch"                 # Fast, highly customizable system info script
 brew "mas"                      # Mac App Store command-line interface
 brew "stow"                     # Symlink tree farm
 brew "powerlevel10k"            # Theme for zsh
-
-
+brew "zsh-syntax-highlighting"  # Syntax highlighting zsh
+brew "ruby"                     # object-oriented scripting language
 
 
 # Shell Enhancements
@@ -68,6 +68,9 @@ cask "raycast"                  # Control your tools with a few keystrokes
 cask "rectangle"                # Window management
 cask "font-meslo-for-powerlevel10k" # Meslo Nerd Font for Powerlevel10k
 cask "font-jetbrains-mono"      # Jetbrains Mono
+mas "Amphetamine", id: 937984704 #app_store amphitamine
+mas "Desktop Clock", id: 894760156 # app_store clock
+
 
 # To add or remove packages:
 # 1. Uncomment lines below to install, or comment out to avoid installing

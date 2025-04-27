@@ -249,49 +249,49 @@ fi
 #         $BACKUP_DIR/fonts/restore_font.sh $BACKUP_DIR/fonts/font_list.txt
 #     fi
 
-# Restore Mac App Store applications
-print_heading "Restoring Mac App Store applications"
+# # Restore Mac App Store applications
+# print_heading "Restoring Mac App Store applications"
 
-if command_exists mas; then
-    print_success "mas command is available."
-else
-    print_info "Installing mas command to manage Mac App Store apps..."
-    brew install mas
-    if ! command_exists mas; then
-        print_error "Failed to install mas. App Store applications will not be restored."
-    else
-        print_success "mas installed successfully."
-    fi
-fi
+# if command_exists mas; then
+#     print_success "mas command is available."
+# else
+#     print_info "Installing mas command to manage Mac App Store apps..."
+#     brew install mas
+#     if ! command_exists mas; then
+#         print_error "Failed to install mas. App Store applications will not be restored."
+#     else
+#         print_success "mas installed successfully."
+#     fi
+# fi
 
-if command_exists mas && [ -f "$BACKUP_DIR/app_store/mas_apps.txt" ]; then
-    print_info "Please sign in to the App Store first"
-    open -a "App Store"
-    read -p "Press Enter when you're signed in to the App Store..." 
+# if command_exists mas && [ -f "$BACKUP_DIR/app_store/mas_apps.txt" ]; then
+#     print_info "Please sign in to the App Store first"
+#     open -a "App Store"
+#     read -p "Press Enter when you're signed in to the App Store..." 
     
-    print_info "Restoring App Store applications..."
+#     print_info "Restoring App Store applications..."
     
     
-    # Check if user is signed in to App Store
-    if ! mas account &> /dev/null; then
-        print_error "Not signed in to the App Store or mas command not compatible with this macOS version."
-        print_error "App Store applications will not be restored."
-        print_info "Continuing with restoration process..."
-    else
-        # Install applications
-        while IFS= read -r line; do
-            if [[ $line =~ ([0-9]+)[[:space:]](.+) ]]; then
-                app_id="${BASH_REMATCH[1]}"
-                app_name="${BASH_REMATCH[2]}"
-                print_info "Installing $app_name..."
-                mas install "$app_id" &> /dev/null || print_error "Failed to install $app_name"
-            fi
-        done < "$BACKUP_DIR/app_store/mas_apps.txt"
-        print_success "App Store applications restored."
-    fi
-else
-    print_info "Skipping App Store applications restoration (no list found or mas unavailable)."
-fi
+#     # Check if user is signed in to App Store
+#     if ! mas account &> /dev/null; then
+#         print_error "Not signed in to the App Store or mas command not compatible with this macOS version."
+#         print_error "App Store applications will not be restored."
+#         print_info "Continuing with restoration process..."
+#     else
+#         # Install applications
+#         while IFS= read -r line; do
+#             if [[ $line =~ ([0-9]+)[[:space:]](.+) ]]; then
+#                 app_id="${BASH_REMATCH[1]}"
+#                 app_name="${BASH_REMATCH[2]}"
+#                 print_info "Installing $app_name..."
+#                 mas install "$app_id" &> /dev/null || print_error "Failed to install $app_name"
+#             fi
+#         done < "$BACKUP_DIR/app_store/mas_apps.txt"
+#         print_success "App Store applications restored."
+#     fi
+# else
+#     print_info "Skipping App Store applications restoration (no list found or mas unavailable)."
+# fi
 
 # Restore macOS preferences
 print_heading "Restoring macOS preferences"
@@ -629,13 +629,26 @@ DOTFILES_DIR="$HOME/.dotfiles"
 if [ -d "$DOTFILES_DIR" ]; then
   cd "$DOTFILES_DIR" || exit 1
   stow */        # stow everything inside .dotfiles
+  
 else
   echo "Dotfiles directory not found at $DOTFILES_DIR"
+     echo "${RED}✗${NORMAL} Dotfiles: Not restored"
   exit 1
 fi
 
 
-source "~/.zshrc" 
+# zsh-syntax-highlighting
+# MacOs
+# echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+# Linux
+# echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+# color ls
+gem install --user-install public_suffix -v 5.1.1 && gem install --user-install colorls && print_success "colorls installed succesfully" || print_error "Failed to install colorls"
+
+
+# source "$HOME/.zshrc" 
 
 
 # Verify installations
@@ -681,13 +694,13 @@ else
     echo "${RED}✗${NORMAL} App Store: Applications not restored"
 fi
 
-# Dotfiles
-if [ -d "$BACKUP_DIR/dotfiles" ]; then
-    dotfile_count=$(find "$BACKUP_DIR/dotfiles" -type f | wc -l | tr -d ' ')
-    echo "${GREEN}✓${NORMAL} Dotfiles: $dotfile_count files copied"
-else
-    echo "${RED}✗${NORMAL} Dotfiles: Not restored"
-fi
+# # Dotfiles
+# if [ -d "$BACKUP_DIR/dotfiles" ]; then
+#     dotfile_count=$(find "$BACKUP_DIR/dotfiles" -type f | wc -l | tr -d ' ')
+#     echo "${GREEN}✓${NORMAL} Dotfiles: $dotfile_count files copied"
+# else
+#     echo "${RED}✗${NORMAL} Dotfiles: Not restored"
+# fi
 
 # Preferences
 if [ -d "$BACKUP_DIR/preferences" ]; then
