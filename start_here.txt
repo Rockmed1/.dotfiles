@@ -1,0 +1,7 @@
+curl -L -o dotfiles.zip https://github.com/Rockmed1/.dotfiles/archive/refs/heads/main.zip
+
+unzip dotfiles.zip
+
+mv .dotfiles-main .dotfiles
+
+
