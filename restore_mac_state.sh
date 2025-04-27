@@ -556,6 +556,13 @@ if [ -d "$BACKUP_DIR/preferences" ]; then
 open /System/Library/CoreServices/Finder.app
 
 
+# Restore Menu Bar
+print_info "Restoring Menu Bar preferences..."
+    restore_pref_file  "$BACKUP_DIR/misc/com.apple.systemuiserver.plist" "$HOME/Library/Preferences/" && {
+            print_success "Menu Bar preferences restored."
+        } || print_error "Failed to restore Menu Bar preferences."
+
+
     # # Restore Raycast settings
     # if [ -d "$BACKUP_DIR/app_store/raycast" ]; then
     #     print_info "Restoring Raycast settings..."

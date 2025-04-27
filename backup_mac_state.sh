@@ -169,7 +169,11 @@ cp ~/Library/Preferences/com.lwouis.alt-tab-macos.plist ~/mac_backup_20250424_15
 # Warp
 # cp -r "$HOME/Library/Application Support/dev.warp.Warp/" "$HOME/mac_backup_20250424_152200/misc/"
 
+# Menu bar
+cp ~/Library/Preferences/com.apple.systemuiserver.plist ./mac_backup_20250424_182654/misc/ && echo "Menu Bar settings backed up successfully"
+
 # Terminal settings
+
 if [ -d "$HOME/Library/Preferences/com.apple.Terminal.plist" ]; then
     cp -p "$HOME/Library/Preferences/com.apple.Terminal.plist" "$BACKUP_DIR/preferences/"
     echo "Exported Terminal preferences"
