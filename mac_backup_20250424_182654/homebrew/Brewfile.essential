@@ -39,7 +39,8 @@ brew "stow"                     # Symlink tree farm
 brew "powerlevel10k"            # Theme for zsh
 brew "zsh-syntax-highlighting"  # Syntax highlighting zsh
 brew "ruby"                     # object-oriented scripting language
-
+#Yazi & dependencies
+brew "yazi"                     # Cli file manager
 
 # Shell Enhancements
 # ------------------------------------------------------

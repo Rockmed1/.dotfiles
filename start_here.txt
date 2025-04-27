@@ -1,7 +1,33 @@
+# 1- give admin rights
+sudo dseditgroup -o edit -a "$USER" -t user admin
+
+
+
+# 2- copy the repo locally
 curl -L -o dotfiles.zip https://github.com/Rockmed1/.dotfiles/archive/refs/heads/main.zip
 
 unzip dotfiles.zip
 
 mv .dotfiles-main .dotfiles
 
+
+# 3- run restore file
+
+
+# 4- git setup
+#create a new ssh key
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+### git clone git@github.com:Rockmed1/.dotfiles.git###
+
+#Add your public key to GitHub
+Copy it:
+cat ~/.ssh/id_ed25519.pub
+Go to GitHub → Settings → SSH and GPG keys → New SSH key
+Paste it.
+
+# add remote repo as origin
+cd ~/.dotfiles
+git init
+git remote add origin git@github.com:Rockmed1/.dotfiles.git
 
