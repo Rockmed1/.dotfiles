@@ -1,8 +1,17 @@
 \.git
+^\.git
 misc
+^misc
 ^id_ed
 .DS_Store
+^\.DS_Store
 .nvimlog
+^\.nvimlog
+^restore
 .*/restore.*
+^fonts
 .*/fonts.*
 .*/mac_backup.*
+^mac_backup
+^start_here
+.*/start_here.*
